@@ -1,0 +1,32 @@
+{
+  "skeleton_nodes": 57,
+  "parallel_workers": 4,
+  "phase1_seconds": 126.28,
+  "phase2_seconds": 251.41,
+  "truncation_count": 0,
+  "split_count": 0,
+  "skeleton_batches_failed": 0,
+  "parents_from_already_found": 0,
+  "coverage_pass_recovered": 0,
+  "coverage_pass_recovered_by_path": {},
+  "coverage_pass_capped": 0,
+  "skeleton_path_counts": {
+    "": 1,
+    "registers[]": 14,
+    "registers[].fields[]": 22,
+    "spi_modes[]": 8,
+    "frame_formats[]": 4,
+    "timing_parameters[]": 2,
+    "state_machines[]": 2,
+    "state_machines[].states[]": 2,
+    "state_machines[].transitions[]": 2
+  },
+  "dropped_chunk_ids": [],
+  "chunk_coverage_pct": 71.1,
+  "reconciliation_merged": 1,
+  "merge_orphans_dropped": 0,
+  "merge_recovered": 0,
+  "merge_bucket_parents": 0,
+  "merge_bucket_attachments": 0,
+  "retention_pct": 100.0
+}

@@ -1,0 +1,5404 @@
+{
+  "version": 2,
+  "document": null,
+  "resolution": "chunk",
+  "node_level": true,
+  "chunks": {
+    "0": {
+      "chunk_id": 0,
+      "batch_index": 0,
+      "page_numbers": [
+        1
+      ],
+      "doc_item_refs": [
+        "#/texts/1"
+      ],
+      "item_geometry": [
+        {
+          "ref": "#/texts/1",
+          "page_no": 1,
+          "bbox": [
+            78,
+            81,
+            189,
+            107
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            65,
+            52,
+            158,
+            69
+          ]
+        }
+      ],
+      "headings": [
+        "TB3157"
+      ],
+      "token_count": 13,
+      "text_hash": "e5e6a94f6a82d600",
+      "char_length": 29,
+      "text": "TB3157\n<text>MICROCHIP</text>",
+      "resplit_of": null
+    },
+    "1": {
+      "chunk_id": 1,
+      "batch_index": 0,
+      "page_numbers": [
+        1
+      ],
+      "doc_item_refs": [
+        "#/texts/3"
+      ],
+      "item_geometry": [
+        {
+          "ref": "#/texts/3",
+          "page_no": 1,
+          "bbox": [
+            88,
+            169,
+            257,
+            202
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            73,
+            109,
+            215,
+            130
+          ]
+        }
+      ],
+      "headings": [
+        "Serial Peripheral Interface (SPI) Communications on 8-Bit PIC \u00ae Microcontrollers"
+      ],
+      "token_count": 40,
+      "text_hash": "557367828c8ef3f3",
+      "char_length": 169,
+      "text": "Serial Peripheral Interface (SPI) Communications on 8-Bit PIC \u00ae Microcontrollers\n<text>Author: Regine Monique Aurellano and Jason Layton Microchip Technology Inc.</text>",
+      "resplit_of": null
+    },
+    "2": {
+      "chunk_id": 2,
+      "batch_index": 0,
+      "page_numbers": [
+        1
+      ],
+      "doc_item_refs": [
+        "#/texts/5",
+        "#/texts/6"
+      ],
+      "item_geometry": [
+        {
+          "ref": "#/texts/5",
+          "page_no": 1,
+          "bbox": [
+            81,
+            234,
+            297,
+            375
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            68,
+            151,
+            248,
+            242
+          ]
+        },
+        {
+          "ref": "#/texts/6",
+          "page_no": 1,
+          "bbox": [
+            81,
+            381,
+            297,
+            412
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            68,
+            246,
+            248,
+            266
+          ]
+        }
+      ],
+      "headings": [
+        "INTRODUCTION"
+      ],
+      "token_count": 169,
+      "text_hash": "3b6766d5d0dd7fb9",
+      "char_length": 849,
+      "text": "INTRODUCTION\n<text>The  Serial  Peripheral  Interface  (SPI)  has  long  been part of the PIC \u00ae  MCU set of core peripherals. One of the newest features introduced with the PIC18(L)F2X/ 4XK42 microcontroller series is a separate module for the SPI functionality. Previous devices have integrated SPI capabilities with the other serial communications protocols and implemented them in the Master Synchronous Serial Port module (MSSP), where SPI shared resources such as registers and interrupt flags. The dedicated module for SPI allows significant improvement in the implementation of traditional SPI capabilities  and  expansions  to  add  new  features  for more flexibility and user control.</text>\n<text>This technical brief intends to discuss the implementation, modes of operation and other useful additional features of the SPI module.</text>",
+      "resplit_of": null
+    },
+    "3": {
+      "chunk_id": 3,
+      "batch_index": 0,
+      "page_numbers": [
+        1
+      ],
+      "doc_item_refs": [
+        "#/texts/8",
+        "#/texts/9",
+        "#/texts/10",
+        "#/texts/11",
+        "#/texts/12",
+        "#/texts/13",
+        "#/texts/14",
+        "#/texts/15",
+        "#/texts/16",
+        "#/texts/17",
+        "#/texts/18"
+      ],
+      "item_geometry": [
+        {
+          "ref": "#/texts/8",
+          "page_no": 1,
+          "bbox": [
+            81,
+            448,
+            297,
+            545
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            68,
+            290,
+            249,
+            352
+          ]
+        },
+        {
+          "ref": "#/texts/9",
+          "page_no": 1,
+          "bbox": [
+            81,
+            551,
+            297,
+            571
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            68,
+            356,
+            248,
+            369
+          ]
+        },
+        {
+          "ref": "#/texts/10",
+          "page_no": 1,
+          "bbox": [
+            81,
+            577,
+            142,
+            586
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            68,
+            373,
+            119,
+            379
+          ]
+        },
+        {
+          "ref": "#/texts/11",
+          "page_no": 1,
+          "bbox": [
+            81,
+            590,
+            137,
+            599
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            68,
+            382,
+            115,
+            387
+          ]
+        },
+        {
+          "ref": "#/texts/12",
+          "page_no": 1,
+          "bbox": [
+            81,
+            603,
+            213,
+            612
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            68,
+            390,
+            178,
+            395
+          ]
+        },
+        {
+          "ref": "#/texts/13",
+          "page_no": 1,
+          "bbox": [
+            81,
+            616,
+            206,
+            625
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            68,
+            398,
+            173,
+            404
+          ]
+        },
+        {
+          "ref": "#/texts/14",
+          "page_no": 1,
+          "bbox": [
+            81,
+            629,
+            249,
+            638
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            68,
+            407,
+            209,
+            412
+          ]
+        },
+        {
+          "ref": "#/texts/15",
+          "page_no": 1,
+          "bbox": [
+            81,
+            644,
+            297,
+            664
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            68,
+            417,
+            249,
+            429
+          ]
+        },
+        {
+          "ref": "#/texts/16",
+          "page_no": 1,
+          "bbox": [
+            81,
+            670,
+            228,
+            679
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            68,
+            433,
+            191,
+            439
+          ]
+        },
+        {
+          "ref": "#/texts/17",
+          "page_no": 1,
+          "bbox": [
+            81,
+            683,
+            251,
+            692
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            68,
+            442,
+            210,
+            447
+          ]
+        },
+        {
+          "ref": "#/texts/18",
+          "page_no": 1,
+          "bbox": [
+            81,
+            696,
+            276,
+            716
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            68,
+            450,
+            231,
+            463
+          ]
+        }
+      ],
+      "headings": [
+        "SPI MODULE OVERVIEW"
+      ],
+      "token_count": 319,
+      "text_hash": "5869072eec0e5af9",
+      "char_length": 1190,
+      "text": "SPI MODULE OVERVIEW\n<text>The SPI (Serial Peripheral Interface) module features a synchronous serial data communication bus that can operate  in  both  Full-Duplex  and  Half-Duplex  mode. Devices communicate in a master/slave environment where the master device initiates the communication. A slave  device  is  controlled  by  the  master  through  a Slave Select (SS) line. Example slave devices include serial  EEPROMs, shift registers,  display  drivers,  A/D converters, or another PIC \u00ae  MCU.</text>\n<text>The  SPI  module  supports  the  following  modes  and features:</text>\n<ldiv><marker>\u00b7</marker></ldiv>Master mode\n<ldiv><marker>\u00b7</marker></ldiv>Slave mode\n<ldiv><marker>\u00b7</marker></ldiv>Clock Polarity and Edge Select\n<ldiv><marker>\u00b7</marker></ldiv>Slave Select Synchronization\n<ldiv><marker>\u00b7</marker></ldiv>Daisy-chain connection of slave devices\n<text>The following features are new and unique to the new dedicated SPI module:</text>\n<ldiv><marker>\u00b7</marker></ldiv>SDI, SDO, and SS Polarity Control\n<ldiv><marker>\u00b7</marker></ldiv>Separate Transmit and Receive Enables\n<ldiv><marker>\u00b7</marker></ldiv>Separate Transmit and Receive Buffers with 2byte FIFO and DMA capabilities",
+      "resplit_of": null
+    },
+    "4": {
+      "chunk_id": 4,
+      "batch_index": 0,
+      "page_numbers": [
+        1
+      ],
+      "doc_item_refs": [
+        "#/texts/19",
+        "#/texts/20"
+      ],
+      "item_geometry": [
+        {
+          "ref": "#/texts/19",
+          "page_no": 1,
+          "bbox": [
+            333,
+            161,
+            549,
+            269
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            279,
+            104,
+            459,
+            174
+          ]
+        },
+        {
+          "ref": "#/texts/20",
+          "page_no": 1,
+          "bbox": [
+            333,
+            275,
+            549,
+            427
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            279,
+            178,
+            459,
+            276
+          ]
+        }
+      ],
+      "headings": [
+        "SPI MODULE OVERVIEW"
+      ],
+      "token_count": 304,
+      "text_hash": "33956a46915f10f0",
+      "char_length": 1361,
+      "text": "SPI MODULE OVERVIEW\n<text>As mentioned, the SPI protocol uses a master-slave structure. If the device is configured as the master, it provides and controls the clock signal. All slave devices attached  to  the  master  are  controlled  by  this  master clock  and  may  not  manipulate  it.  As  data  is  being clocked out of either the master or slave, new data is being clocked in simultaneously. A Slave Select (SS) signal controls which particular slave device the master is communicating with, ensuring that only a single slave is engaged at one time.</text>\n<text><![CDATA[Transmissions  involve  shifting bits in and  out of registers, regardless of the device's mode as master or as slave. Data buffer registers are used for transmitting and receiving data. Data is normally shifted out one bit at a time with the Most Significant bit (MSb) shifted out first.  Newer  devices  contain  two  separate  registers, one for transmitting and one for receiving data. At the programmed clock edge, the master shifts data out of the transmit registers, out  of the  Serial  Data  Out  pin (SDO), in the slave's Serial Data In pin (SDI) and into the receive registers on the opposite edge of the clock. Figure 1 shows a block diagram depicting the connections for the SPI system in the devices that have separate data buffers for transmit and receive.]]></text>",
+      "resplit_of": null
+    },
+    "5": {
+      "chunk_id": 5,
+      "batch_index": 6,
+      "page_numbers": [
+        2,
+        3
+      ],
+      "doc_item_refs": [
+        "#/texts/63",
+        "#/texts/64",
+        "#/texts/68",
+        "#/texts/69",
+        "#/texts/70"
+      ],
+      "item_geometry": [
+        {
+          "ref": "#/texts/63",
+          "page_no": 2,
+          "bbox": [
+            82,
+            336,
+            519,
+            355
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            69,
+            217,
+            434,
+            230
+          ]
+        },
+        {
+          "ref": "#/texts/64",
+          "page_no": 2,
+          "bbox": [
+            105,
+            362,
+            519,
+            381
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            88,
+            234,
+            434,
+            247
+          ]
+        },
+        {
+          "ref": "#/texts/68",
+          "page_no": 3,
+          "bbox": [
+            90,
+            88,
+            113,
+            97
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            75,
+            57,
+            94,
+            62
+          ]
+        },
+        {
+          "ref": "#/texts/69",
+          "page_no": 3,
+          "bbox": [
+            128,
+            88,
+            293,
+            119
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            107,
+            57,
+            245,
+            77
+          ]
+        },
+        {
+          "ref": "#/texts/70",
+          "page_no": 3,
+          "bbox": [
+            81,
+            127,
+            297,
+            290
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            68,
+            82,
+            248,
+            187
+          ]
+        }
+      ],
+      "headings": [
+        "SPI MODULE OVERVIEW"
+      ],
+      "token_count": 337,
+      "text_hash": "266b8b92fe4cdc65",
+      "char_length": 1266,
+      "text": "SPI MODULE OVERVIEW\n<ldiv/>Note 1: In  some  modes,  if  the  Transmit  FIFO  is  empty,  the  most  recently  received  byte  of  data  will  be retransmitted.\n<ldiv/>2: This diagram assumes that the LSBF bit is cleared (communications are MSb first). If LSBF is set, the communications will be LSb first.\n<text>Note:</text>\n<text>Both master and slave devices should be configured  for  the  same  clock  polarity setting.</text>\n<text><![CDATA[To  begin  communication,  the  master  sends  out  the clock  signal.  During  each  SPI  clock  cycle,  a  data transmission occurs. While the master is sending out data from its SDO pin and the slave receiving this data through its SDI pin, the slave is also sending some data out  its  SDO  pin  and  into  the  master's  SDI  pin.  After eight  bits  have  been  shifted  out,  the  master  and  the slave should have exchanged register values. If there is more data to be exchanged, the registers are loaded again  and  the  process  repeats.  Transmissions  may involve  any  number  of  clock  cycles,  as  long  as  the master is sending clock signals. If there is no more data to be sent, the master stops sending the clock signal and the SS line to the slave is deactivated, deselecting that slave.]]></text>",
+      "resplit_of": null
+    },
+    "6": {
+      "chunk_id": 6,
+      "batch_index": 6,
+      "page_numbers": [
+        3
+      ],
+      "doc_item_refs": [
+        "#/texts/73"
+      ],
+      "item_geometry": [
+        {
+          "ref": "#/texts/73",
+          "page_no": 3,
+          "bbox": [
+            81,
+            351,
+            297,
+            448
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            68,
+            227,
+            248,
+            289
+          ]
+        }
+      ],
+      "headings": [
+        "Enabling and Disabling the SPI Module"
+      ],
+      "token_count": 116,
+      "text_hash": "ce61c080887f8c29",
+      "char_length": 508,
+      "text": "Enabling and Disabling the SPI Module\n<text>To enable the serial port, the EN bit in the respective registers must be set. Setting this bit also enables the SPI inputs and outputs: SDI, SDO, SCK and SS. All of these inputs and outputs are steerable through Peripheral  Pin  Select  (PPS)  and  must  be  properly mapped to function properly. Clearing the EN bit aborts any transmissions in progress, disallows the setting of interrupt flags by the hardware and resets the read and write FIFO pointers.</text>",
+      "resplit_of": null
+    },
+    "7": {
+      "chunk_id": 7,
+      "batch_index": 6,
+      "page_numbers": [
+        3
+      ],
+      "doc_item_refs": [
+        "#/texts/75"
+      ],
+      "item_geometry": [
+        {
+          "ref": "#/texts/75",
+          "page_no": 3,
+          "bbox": [
+            81,
+            481,
+            297,
+            523
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            68,
+            311,
+            249,
+            338
+          ]
+        }
+      ],
+      "headings": [
+        "Checking If There Is An Ongoing Transfer"
+      ],
+      "token_count": 73,
+      "text_hash": "836a5c5c513d8a7c",
+      "char_length": 276,
+      "text": "Checking If There Is An Ongoing Transfer\n<text>There are bits that a user can check to see if a transfer is in progress. The BUSY bit of the SPIxCON2 register can  be  polled  by  users  to  check  the  status  of  the module or if an ongoing data transfer is complete.</text>",
+      "resplit_of": null
+    },
+    "8": {
+      "chunk_id": 8,
+      "batch_index": 6,
+      "page_numbers": [
+        3
+      ],
+      "doc_item_refs": [
+        "#/texts/77"
+      ],
+      "item_geometry": [
+        {
+          "ref": "#/texts/77",
+          "page_no": 3,
+          "bbox": [
+            81,
+            556,
+            297,
+            653
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            68,
+            360,
+            248,
+            422
+          ]
+        }
+      ],
+      "headings": [
+        "Transmit and Receive Registers"
+      ],
+      "token_count": 123,
+      "text_hash": "1007b89e98b01c48",
+      "char_length": 504,
+      "text": "Transmit and Receive Registers\n<text>Data  for  transmission  and  reception  are  accessible through  the  write-only  SPIxTXB  and  the  read-only SPIxRXB  registers  for  newer  devices  with  the  SPI peripheral module. The registers can contain up to two bytes of information and read and write pointers that point to the locations where the next read or write will be  executed.  Each  read  to  SPIxRXB  increments  the read pointer while each write to SPIxTXB increments the write pointer.</text>",
+      "resplit_of": null
+    },
+    "9": {
+      "chunk_id": 9,
+      "batch_index": 1,
+      "page_numbers": [
+        3
+      ],
+      "doc_item_refs": [
+        "#/texts/79",
+        "#/texts/80"
+      ],
+      "item_geometry": [
+        {
+          "ref": "#/texts/79",
+          "page_no": 3,
+          "bbox": [
+            333,
+            90,
+            549,
+            154
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            279,
+            58,
+            459,
+            99
+          ]
+        },
+        {
+          "ref": "#/texts/80",
+          "page_no": 3,
+          "bbox": [
+            333,
+            160,
+            549,
+            224
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            279,
+            104,
+            459,
+            145
+          ]
+        }
+      ],
+      "headings": [
+        "LSb vs MSb First Operation"
+      ],
+      "token_count": 177,
+      "text_hash": "e266938555e84735",
+      "char_length": 667,
+      "text": "LSb vs MSb First Operation\n<text>The  SPI  peripheral module  allows  the option of choosing between LSb and MSb first operation. The LSBF bit of the SPIxCON0 register specifies if data is shifted in or out of the device LSb or MSb first. This bit is  cleared  by  default,  making  MSb-first  the  de  facto configuration.</text>\n<text>For  the  new  SPI  module,  there  are  three  bits  that control the polarity of the serial ports. The SDIP, SDOP, and the SSP bits controls the polarity of the SDI, SDO, and SS signals, respectively. For all three bits, when the bit is  cleared, input or output  is active-high; otherwise, input or output is active-low.</text>",
+      "resplit_of": null
+    },
+    "10": {
+      "chunk_id": 10,
+      "batch_index": 1,
+      "page_numbers": [
+        3
+      ],
+      "doc_item_refs": [
+        "#/texts/83",
+        "#/texts/84",
+        "#/texts/85",
+        "#/texts/86",
+        "#/texts/87",
+        "#/texts/88",
+        "#/texts/89",
+        "#/texts/90"
+      ],
+      "item_geometry": [
+        {
+          "ref": "#/texts/83",
+          "page_no": 3,
+          "bbox": [
+            333,
+            285,
+            549,
+            338
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            279,
+            184,
+            459,
+            218
+          ]
+        },
+        {
+          "ref": "#/texts/84",
+          "page_no": 3,
+          "bbox": [
+            333,
+            344,
+            449,
+            353
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            279,
+            223,
+            376,
+            228
+          ]
+        },
+        {
+          "ref": "#/texts/85",
+          "page_no": 3,
+          "bbox": [
+            333,
+            357,
+            420,
+            366
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            279,
+            231,
+            352,
+            236
+          ]
+        },
+        {
+          "ref": "#/texts/86",
+          "page_no": 3,
+          "bbox": [
+            333,
+            370,
+            423,
+            379
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            279,
+            239,
+            354,
+            245
+          ]
+        },
+        {
+          "ref": "#/texts/87",
+          "page_no": 3,
+          "bbox": [
+            333,
+            383,
+            414,
+            392
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            279,
+            248,
+            347,
+            253
+          ]
+        },
+        {
+          "ref": "#/texts/88",
+          "page_no": 3,
+          "bbox": [
+            333,
+            398,
+            549,
+            429
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            279,
+            257,
+            459,
+            277
+          ]
+        },
+        {
+          "ref": "#/texts/89",
+          "page_no": 3,
+          "bbox": [
+            333,
+            435,
+            525,
+            445
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            279,
+            281,
+            440,
+            287
+          ]
+        },
+        {
+          "ref": "#/texts/90",
+          "page_no": 3,
+          "bbox": [
+            351,
+            450,
+            540,
+            580
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            294,
+            291,
+            452,
+            375
+          ]
+        }
+      ],
+      "headings": [
+        "Master Mode"
+      ],
+      "token_count": 364,
+      "text_hash": "702846b5e930b2c8",
+      "char_length": 1297,
+      "text": "Master Mode\n<text>In Master mode, the device controls the SCK line and initiates the data transfers. It will also determine which slave can transmit or receive data. The new, separate SPI  module  offers  four  configurations  of  the  Master mode, namely:</text>\n<ldiv><marker>\u00b7</marker></ldiv>Full Duplex (Legacy) mode\n<ldiv><marker>\u00b7</marker></ldiv>Receive Only mode\n<ldiv><marker>\u00b7</marker></ldiv>Transmit Only mode\n<ldiv><marker>\u00b7</marker></ldiv>Transfer Off mode\n<text>The  mode  can  be  configured  by  the  TXR  and  RXR bits.Table 1 illustrates which configuration of RXR/TXR bits corresponds to which mode.</text>\n<list><ldiv><marker>\u00b7</marker></ldiv>Full-Duplex (Legacy) Mode (RXR|TXR = 11 )\n</list>\n<text>In this mode, data transfer will occur whenever both the Receive (RX) register is NOT full and there  is  data  present  in  the  Transmit  (TX) register.  In  practice,  as  long  as  the  Receive register  is  empty,  -  that  is,  its  most  recent contents have been read - data is transmitted/ received as soon as the data is written into the Transmit register. The BMODE bit should also be considered as the transfer of data might be dependent on the transfer counter if BMODE = 0 .  Set  the  BMODE  bit  to  be  equal  to  one  to completely match legacy settings.</text>",
+      "resplit_of": null
+    },
+    "11": {
+      "chunk_id": 11,
+      "batch_index": 1,
+      "page_numbers": [
+        4
+      ],
+      "doc_item_refs": [
+        "#/tables/0"
+      ],
+      "item_geometry": [
+        {
+          "ref": "#/tables/0",
+          "page_no": 4,
+          "bbox": [
+            61,
+            95,
+            532,
+            253
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            51,
+            61,
+            445,
+            164
+          ]
+        }
+      ],
+      "headings": [
+        "TABLE 1: MASTER MODE TXR/RXR SETTINGS"
+      ],
+      "token_count": 218,
+      "text_hash": "a0006b4150af2e28",
+      "char_length": 729,
+      "text": "TABLE 1: MASTER MODE TXR/RXR SETTINGS\n<table><ched/>TXR = 1<ecel/><ched/>TXR = 0<nl/><fcel/>Full-Duplex (Legacy) mode If BMODE = 1 , transfer when RXFIFO is not full and TXFIFO is not empty. If BMODE = 0 , transfer when RXFIFO is not full, TXFIFO is not empty and the transfer counter is non-zero.<fcel/>Receive Only mode Transfer when RxFIFO is not full and the transfer counter is non-zero Transmitted data is either the top of the FIFO or the most-recently received data<fcel/>RXR = 1<nl/><fcel/>0 Transmit Only mode If BMODE = 1 , transfer when TXFIFO is not empty. If BMODE = 0 , transfer when TXFIFO is not empty and the transfer counter is non-zero. Received data is not stored.<fcel/>No Transfers<fcel/>RXR =<nl/></table>",
+      "resplit_of": null
+    },
+    "12": {
+      "chunk_id": 12,
+      "batch_index": 1,
+      "page_numbers": [
+        4
+      ],
+      "doc_item_refs": [
+        "#/texts/96"
+      ],
+      "item_geometry": [
+        {
+          "ref": "#/texts/96",
+          "page_no": 4,
+          "bbox": [
+            81,
+            272,
+            270,
+            369
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            68,
+            176,
+            226,
+            238
+          ]
+        }
+      ],
+      "headings": [
+        "\u00b7 Receive Only Mode (RXR|TXR = 10 )"
+      ],
+      "token_count": 115,
+      "text_hash": "fb702206db2205e0",
+      "char_length": 462,
+      "text": "\u00b7 Receive Only Mode (RXR|TXR = 10 )\n<text>In this mode, data transfer will occur if the RX register  is  not  full  and  the  transfer  counter  is non-zero. The transfer counter is used to control how many data transfers will occur before data exchange ceases. If there is any data in the TX register,  it  will  be  transmitted  and  will  be  sent repeatedly. If there is no data in the TX register, the most recently received data will be transmitted.</text>",
+      "resplit_of": null
+    },
+    "13": {
+      "chunk_id": 13,
+      "batch_index": 6,
+      "page_numbers": [
+        4
+      ],
+      "doc_item_refs": [
+        "#/texts/98"
+      ],
+      "item_geometry": [
+        {
+          "ref": "#/texts/98",
+          "page_no": 4,
+          "bbox": [
+            81,
+            390,
+            270,
+            476
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            68,
+            252,
+            226,
+            307
+          ]
+        }
+      ],
+      "headings": [
+        "\u00b7 Transmit Only Mode (RXR|TXR = 01 )"
+      ],
+      "token_count": 112,
+      "text_hash": "e1c3a47ff6caa77a",
+      "char_length": 420,
+      "text": "\u00b7 Transmit Only Mode (RXR|TXR = 01 )\n<text>In this mode, data transfer will occur whenever the TX register is not empty (if BMODE = 1 ) or if the transfer counter is non zero (if BMODE = 0 ). Any data received is not stored in the RX registers.  When  BMODE  = 0 ,  the  transfer  counter must  also  be  written  to  before  transfers  will occur, and transfers will cease when the transfer counter reaches zero.</text>",
+      "resplit_of": null
+    },
+    "14": {
+      "chunk_id": 14,
+      "batch_index": 6,
+      "page_numbers": [
+        4
+      ],
+      "doc_item_refs": [
+        "#/texts/100",
+        "#/texts/101",
+        "#/texts/102",
+        "#/texts/103",
+        "#/texts/104",
+        "#/texts/105",
+        "#/texts/106",
+        "#/texts/107",
+        "#/texts/108",
+        "#/texts/109"
+      ],
+      "item_geometry": [
+        {
+          "ref": "#/texts/100",
+          "page_no": 4,
+          "bbox": [
+            81,
+            497,
+            270,
+            517
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            68,
+            321,
+            226,
+            334
+          ]
+        },
+        {
+          "ref": "#/texts/101",
+          "page_no": 4,
+          "bbox": [
+            63,
+            523,
+            279,
+            642
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            53,
+            338,
+            233,
+            415
+          ]
+        },
+        {
+          "ref": "#/texts/102",
+          "page_no": 4,
+          "bbox": [
+            315,
+            257,
+            531,
+            299
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            264,
+            166,
+            444,
+            193
+          ]
+        },
+        {
+          "ref": "#/texts/103",
+          "page_no": 4,
+          "bbox": [
+            315,
+            305,
+            345,
+            314
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            264,
+            197,
+            289,
+            203
+          ]
+        },
+        {
+          "ref": "#/texts/104",
+          "page_no": 4,
+          "bbox": [
+            315,
+            318,
+            370,
+            327
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            264,
+            206,
+            309,
+            211
+          ]
+        },
+        {
+          "ref": "#/texts/105",
+          "page_no": 4,
+          "bbox": [
+            315,
+            331,
+            356,
+            340
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            264,
+            214,
+            298,
+            220
+          ]
+        },
+        {
+          "ref": "#/texts/106",
+          "page_no": 4,
+          "bbox": [
+            315,
+            344,
+            352,
+            353
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            264,
+            223,
+            294,
+            228
+          ]
+        },
+        {
+          "ref": "#/texts/107",
+          "page_no": 4,
+          "bbox": [
+            315,
+            357,
+            367,
+            366
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            264,
+            231,
+            307,
+            236
+          ]
+        },
+        {
+          "ref": "#/texts/108",
+          "page_no": 4,
+          "bbox": [
+            315,
+            370,
+            343,
+            379
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            264,
+            239,
+            287,
+            245
+          ]
+        },
+        {
+          "ref": "#/texts/109",
+          "page_no": 4,
+          "bbox": [
+            315,
+            385,
+            531,
+            416
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            264,
+            249,
+            444,
+            269
+          ]
+        }
+      ],
+      "headings": [
+        "\u00b7 Transfer Off Mode (RXR|TXR = 00 )"
+      ],
+      "token_count": 357,
+      "text_hash": "3980ef4b4da6d89b",
+      "char_length": 1285,
+      "text": "\u00b7 Transfer Off Mode (RXR|TXR = 00 )\n<text>In this mode, SCK will not toggle and no data is exchanged.</text>\n<text>For the SPI peripheral module, Master mode also gives user options on controlling the Slave Select pin. Users can let the hardware control the Slave Select Output through the SSET bit of the SPIxCON2 register, with the option of keeping it always active or driven to active state  when  the  transfer  counter  is  non-zero.  For hardware control, make sure to assign the selected SS pin through the Peripheral Pin Select. Slave Select can also  be  controlled  through  software  via  any  general purpose I/O pin, just make sure that this pin is a GPIO pin configured as an output.</text>\n<text>The  clock  output  for  the  SPI  Master  mode  can  be sourced from the following and is set by configuring the SPIxCLK register  (refer  to  the  data  sheet  for  further configuration details):</text>\n<ldiv><marker>\u00b7</marker></ldiv>FOSC\n<ldiv><marker>\u00b7</marker></ldiv>HFINTOSC\n<ldiv><marker>\u00b7</marker></ldiv>CLKREF\n<ldiv><marker>\u00b7</marker></ldiv>Timer0\n<ldiv><marker>\u00b7</marker></ldiv>Timer2/4/6\n<ldiv><marker>\u00b7</marker></ldiv>SMT\n<text>The SPIxBAUD register allows for dividing this clock. The  frequency  of  the  SCK  output  is  defined  by Equation 1 below.</text>",
+      "resplit_of": null
+    },
+    "15": {
+      "chunk_id": 15,
+      "batch_index": 1,
+      "page_numbers": [
+        4
+      ],
+      "doc_item_refs": [
+        "#/texts/111",
+        "#/texts/112",
+        "#/texts/113",
+        "#/texts/114"
+      ],
+      "item_geometry": [
+        {
+          "ref": "#/texts/111",
+          "page_no": 4,
+          "bbox": [
+            366,
+            464,
+            479,
+            479
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            306,
+            300,
+            401,
+            310
+          ]
+        },
+        {
+          "ref": "#/texts/112",
+          "page_no": 4,
+          "bbox": [
+            413,
+            455,
+            479,
+            480
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            345,
+            294,
+            401,
+            310
+          ]
+        },
+        {
+          "ref": "#/texts/113",
+          "page_no": 4,
+          "bbox": [
+            315,
+            497,
+            531,
+            538
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            264,
+            321,
+            444,
+            348
+          ]
+        },
+        {
+          "ref": "#/texts/114",
+          "page_no": 4,
+          "bbox": [
+            315,
+            545,
+            531,
+            608
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            264,
+            352,
+            444,
+            393
+          ]
+        }
+      ],
+      "headings": [
+        "EQUATION 1: FREQUENCY OF THE SCK OUTPUT"
+      ],
+      "token_count": 146,
+      "text_hash": "7ad681578d915595",
+      "char_length": 561,
+      "text": "EQUATION 1: FREQUENCY OF THE SCK OUTPUT\n<formula></formula>\n<formula></formula>\n<text>As for SPI Data Sampling and Clocking modes, The sampling of the SDI is controlled by the CKE and SMP bits and the SCK behavior is controlled by the CKP and CKE bits.</text>\n<text>The new SPI module also introduces some synchronizing delays on SCK generation to ensure that the  SS  output  is  correctly  timed.  By  default,  the  SPI module inserts a  \u00bd  baud  delay  before  the  first  SCK pulse to give the master and slave hardware time to sync with each other.</text>",
+      "resplit_of": null
+    },
+    "16": {
+      "chunk_id": 16,
+      "batch_index": 2,
+      "page_numbers": [
+        5
+      ],
+      "doc_item_refs": [
+        "#/texts/119",
+        "#/texts/120"
+      ],
+      "item_geometry": [
+        {
+          "ref": "#/texts/119",
+          "page_no": 5,
+          "bbox": [
+            81,
+            90,
+            297,
+            198
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            68,
+            58,
+            249,
+            128
+          ]
+        },
+        {
+          "ref": "#/texts/120",
+          "page_no": 5,
+          "bbox": [
+            81,
+            204,
+            297,
+            224
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            68,
+            132,
+            248,
+            145
+          ]
+        }
+      ],
+      "headings": [
+        "Slave Mode"
+      ],
+      "token_count": 139,
+      "text_hash": "e0bd7e85a36dd7bd",
+      "char_length": 650,
+      "text": "Slave Mode\n<text>In the SPI protocol, a master device controls the clock signal by which data is transmitted and received and the Slave Select pin is used to synchronize communication. The SS line is held in its inactive state until the master device is ready to communicate. When the SS line is activated, the slave would know that a new transmission from the master will be starting. If the slave  fails  to  receive  a  communication,  the  receiver logic will be reset at the end of the transmission as the SS line returns to its inactive state.</text>\n<text>In the new SPI module, the TXR and the RXR bits control how data is transferred.</text>",
+      "resplit_of": null
+    },
+    "17": {
+      "chunk_id": 17,
+      "batch_index": 2,
+      "page_numbers": [
+        5
+      ],
+      "doc_item_refs": [
+        "#/texts/121",
+        "#/texts/122",
+        "#/texts/123",
+        "#/texts/124",
+        "#/texts/125",
+        "#/texts/126"
+      ],
+      "item_geometry": [
+        {
+          "ref": "#/texts/121",
+          "page_no": 5,
+          "bbox": [
+            81,
+            230,
+            288,
+            294
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            68,
+            149,
+            241,
+            190
+          ]
+        },
+        {
+          "ref": "#/texts/122",
+          "page_no": 5,
+          "bbox": [
+            81,
+            298,
+            288,
+            351
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            68,
+            193,
+            241,
+            227
+          ]
+        },
+        {
+          "ref": "#/texts/123",
+          "page_no": 5,
+          "bbox": [
+            81,
+            355,
+            288,
+            419
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            68,
+            230,
+            241,
+            271
+          ]
+        },
+        {
+          "ref": "#/texts/124",
+          "page_no": 5,
+          "bbox": [
+            81,
+            423,
+            276,
+            443
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            68,
+            274,
+            231,
+            286
+          ]
+        },
+        {
+          "ref": "#/texts/125",
+          "page_no": 5,
+          "bbox": [
+            81,
+            449,
+            297,
+            480
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            68,
+            290,
+            248,
+            310
+          ]
+        },
+        {
+          "ref": "#/texts/126",
+          "page_no": 5,
+          "bbox": [
+            81,
+            486,
+            297,
+            528
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            68,
+            314,
+            248,
+            341
+          ]
+        }
+      ],
+      "headings": [
+        "Slave Mode"
+      ],
+      "token_count": 346,
+      "text_hash": "b9f028006f1055a6",
+      "char_length": 1400,
+      "text": "Slave Mode\n<ldiv><marker>\u00b7</marker></ldiv>When TXR is set, data from the TX register is transmitted and the write FIFO pointer is incremented. If the TX register is empty, the mostrecently received data is transmitted and the Transmit Underflow (TXUIF) Interrupt Flag bit is set to indicate that this type of error occurred.\n<ldiv><marker>\u00b7</marker></ldiv>When TXR is cleared, the data in the TX register is transmitted, if available, but the write FIFO pointer is not incremented. If the TX register is empty, the most-recently received data is transmitted but the TXUIF interrupt will not be set.\n<ldiv><marker>\u00b7</marker></ldiv>When RXR is set, data will be stored in the RX register if it is not full and the read FIFO pointer is incremented. If data is received and the RX register is full, the Receive Overflow (RXOIF) Interrupt Flag bit is set to indicate the error and the data received is discarded.\n<ldiv><marker>\u00b7</marker></ldiv>When RXR is cleared, all received data will be ignored and not stored in the RX register.\n<text>If the SS line transitions to its inactive state while data transfer is ongoing, the Slave Select Fault (SSFLT) bit in the SPIxCON2 register is set.</text>\n<text>The SSP bit of the SPIxCON1 register controls Slave Select Polarity. When the SSP bit is set, the SS line is active-low.  Conversely,  when  the  SSP  bit  is  cleared, the SS line is active-high.</text>",
+      "resplit_of": null
+    },
+    "18": {
+      "chunk_id": 18,
+      "batch_index": 2,
+      "page_numbers": [
+        5
+      ],
+      "doc_item_refs": [
+        "#/texts/127"
+      ],
+      "item_geometry": [
+        {
+          "ref": "#/texts/127",
+          "page_no": 5,
+          "bbox": [
+            81,
+            534,
+            297,
+            598
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            68,
+            345,
+            248,
+            386
+          ]
+        }
+      ],
+      "headings": [
+        "Slave Mode"
+      ],
+      "token_count": 76,
+      "text_hash": "74624cf796eb8260",
+      "char_length": 314,
+      "text": "Slave Mode\n<text>As for SCK settings in Slave mode, the SCK pin must always be an input and configured to the same clock polarity and edge as the master device. Similar to the Master mode, clock polarity is controlled by the CKP bit and clock edge is set by the CKE bit, both found in the SPIxCON1 register.</text>",
+      "resplit_of": null
+    },
+    "19": {
+      "chunk_id": 19,
+      "batch_index": 2,
+      "page_numbers": [
+        5
+      ],
+      "doc_item_refs": [
+        "#/texts/129"
+      ],
+      "item_geometry": [
+        {
+          "ref": "#/texts/129",
+          "page_no": 5,
+          "bbox": [
+            333,
+            105,
+            549,
+            213
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            279,
+            68,
+            459,
+            137
+          ]
+        }
+      ],
+      "headings": [
+        "NEW FEATURE: TRANSFER COUNTER"
+      ],
+      "token_count": 149,
+      "text_hash": "ae31ed2b29eb90e9",
+      "char_length": 568,
+      "text": "NEW FEATURE: TRANSFER COUNTER\n<text>In  Master  mode,  the  transfer  counter  is  used  to determine  the  number  of  data  transfers  the  SPI  will send/receive  until  the  transaction  is  terminated.  The transfer counter is ten bits wide and can be accessed via the SPIxTCTH/L register pair. In Master mode, the transfer counter can operate in two modes, determined by the BMODE bit of the SPIxCON0 register. In both modes, to be discussed below, the Transfer Counter Is Zero  (TCZIF)  Interrupt  Flag  is  set  when  the  transfer counter reaches zero.</text>",
+      "resplit_of": null
+    },
+    "20": {
+      "chunk_id": 20,
+      "batch_index": 2,
+      "page_numbers": [
+        5
+      ],
+      "doc_item_refs": [
+        "#/texts/131"
+      ],
+      "item_geometry": [
+        {
+          "ref": "#/texts/131",
+          "page_no": 5,
+          "bbox": [
+            333,
+            246,
+            541,
+            453
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            279,
+            159,
+            452,
+            293
+          ]
+        }
+      ],
+      "headings": [
+        "Total Bit Count Mode (BMODE = 0 )"
+      ],
+      "token_count": 211,
+      "text_hash": "9952f1fdec47fdd5",
+      "char_length": 934,
+      "text": "Total Bit Count Mode (BMODE = 0 )\n<list><ldiv><marker>\u00b7</marker></ldiv>In this mode, the values of SPIxTCTH/L and SPIxTWIDTH registers are combined to determine the total number of bits to be transferred. For every byte transmitted or received, the transfer counter is decreased by eight until the total number remaining is less than eight. If there are any remaining bits, the TX register will send out one final byte with any extra bits greater than the remainder ignored. Similarly, if there are remaining bits to be received, the RX register will load a final byte with these remaining bits and pad the unused bits with zeros. The LSBF bit of SPIxCON0 determines whether the MSb or the LSb are padded with zeros. In this mode, the SPIxWIDTH setting only applies to the last byte exchanged. Note that in this mode, the SPIxTCNT registers must always have a non-zero value even when the SS pin is controlled by the software.\n</list>",
+      "resplit_of": null
+    },
+    "21": {
+      "chunk_id": 21,
+      "batch_index": 2,
+      "page_numbers": [
+        5,
+        6
+      ],
+      "doc_item_refs": [
+        "#/texts/133",
+        "#/texts/137"
+      ],
+      "item_geometry": [
+        {
+          "ref": "#/texts/133",
+          "page_no": 5,
+          "bbox": [
+            333,
+            486,
+            541,
+            649
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            279,
+            314,
+            452,
+            419
+          ]
+        },
+        {
+          "ref": "#/texts/137",
+          "page_no": 6,
+          "bbox": [
+            63,
+            71,
+            279,
+            201
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            53,
+            46,
+            233,
+            130
+          ]
+        }
+      ],
+      "headings": [
+        "Variable Transfer Size Mode (BMODE = 1 )"
+      ],
+      "token_count": 356,
+      "text_hash": "eb00a081d295d718",
+      "char_length": 1449,
+      "text": "Variable Transfer Size Mode (BMODE = 1 )\n<list><ldiv><marker>\u00b7</marker></ldiv>In this mode, SPIxTWIDTH register determines the bit-length of each data transfer. The SPIxTCTH/L register pair specifies the number of transfers of this length. If SPIxTWIDTH = 0 , each data transfer is one byte wide. Otherwise, only the specified number of bits is shifted in the TX register, with the unused bits ignored. Received data are padded with zeros in the unused areas and then loaded to the RX register. The LSBF bit of SPIxCON0 determines whether the MSb or the LSb are padded with zeros. In this mode, the SPIxWIDTH setting applies to each byte sent. Note that in this mode, the SPIxTCNT registers need not have a non-zero value when the SS pin is controlled by software.\n</list>\n<text>In Slave mode, the transfer counter still decrements but it  does  not  control  data  transfers.  Along  with  the BMODE bit, the transfer counter is used by the slave to determine when the slave should look for Slave Select faults. If BMODE = 1 , the SSFLT bit is set if the SS line transitions  to  the  inactive  state  before  the  final  bit  of each  individual  transfer  is  sent.  If  BMODE  = 0 ,  the SSFLT bit will be set if the SS line transitions between bytes of data. The SSFLT bit will also be set if the SS lines transitions between the bits of the final byte of the message. Moreover, the SSFLT bit is easier to visualize for first time users.</text>",
+      "resplit_of": null
+    },
+    "22": {
+      "chunk_id": 22,
+      "batch_index": 6,
+      "page_numbers": [
+        6
+      ],
+      "doc_item_refs": [
+        "#/texts/139"
+      ],
+      "item_geometry": [
+        {
+          "ref": "#/texts/139",
+          "page_no": 6,
+          "bbox": [
+            63,
+            237,
+            279,
+            323
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            53,
+            153,
+            233,
+            209
+          ]
+        }
+      ],
+      "headings": [
+        "SPI OPERATION IN SLEEP MODE"
+      ],
+      "token_count": 120,
+      "text_hash": "094b04757408dfae",
+      "char_length": 497,
+      "text": "SPI OPERATION IN SLEEP MODE\n<text>In  the  SPI  peripheral  module,  SPI  Master  mode  can operate in Sleep provided that the source clocks are active in Sleep mode. Refer to the data sheet for the list of  clocks active in Sleep mode. All interrupts will still trigger  and  can  wake  the  device  from  Sleep.  As  for Slave mode, it will  still  operate  because  the  clock  is provided by an external master device. Interrupts will still trigger and might wake the device from Sleep.</text>",
+      "resplit_of": null
+    },
+    "23": {
+      "chunk_id": 23,
+      "batch_index": 6,
+      "page_numbers": [
+        6
+      ],
+      "doc_item_refs": [
+        "#/texts/141",
+        "#/texts/142"
+      ],
+      "item_geometry": [
+        {
+          "ref": "#/texts/141",
+          "page_no": 6,
+          "bbox": [
+            63,
+            359,
+            279,
+            390
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            53,
+            232,
+            233,
+            252
+          ]
+        },
+        {
+          "ref": "#/texts/142",
+          "page_no": 6,
+          "bbox": [
+            63,
+            396,
+            279,
+            416
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            53,
+            256,
+            233,
+            269
+          ]
+        }
+      ],
+      "headings": [
+        "SPI INTERRUPTS"
+      ],
+      "token_count": 60,
+      "text_hash": "6a5ab7c68df81830",
+      "char_length": 272,
+      "text": "SPI INTERRUPTS\n<text>The SPI module can trigger  interrupts under several different  conditions.  These  interrupt  flag  and  enable bits are in the PIRx/PIEx special registers.</text>\n<text>The following are new interrupts available for the SPI peripheral module:</text>",
+      "resplit_of": null
+    },
+    "24": {
+      "chunk_id": 24,
+      "batch_index": 2,
+      "page_numbers": [
+        6
+      ],
+      "doc_item_refs": [
+        "#/texts/144"
+      ],
+      "item_geometry": [
+        {
+          "ref": "#/texts/144",
+          "page_no": 6,
+          "bbox": [
+            63,
+            437,
+            279,
+            479
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            53,
+            283,
+            233,
+            309
+          ]
+        }
+      ],
+      "headings": [
+        "\u00b7 SPI Receiver Data Interrupt (SPIxRIF/SPIxRIE)"
+      ],
+      "token_count": 64,
+      "text_hash": "5fac2cd60ee3c6a9",
+      "char_length": 273,
+      "text": "\u00b7 SPI Receiver Data Interrupt (SPIxRIF/SPIxRIE)\n<text>The SPI Receiver Data Interrupt is set when the RX register  contains  data  and  cleared  when  the  RX register is cleared. This interrupt allows fully-interrupt driven operation and is compatible with the DMA.</text>",
+      "resplit_of": null
+    },
+    "25": {
+      "chunk_id": 25,
+      "batch_index": 3,
+      "page_numbers": [
+        6
+      ],
+      "doc_item_refs": [
+        "#/texts/146"
+      ],
+      "item_geometry": [
+        {
+          "ref": "#/texts/146",
+          "page_no": 6,
+          "bbox": [
+            63,
+            511,
+            279,
+            564
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            53,
+            331,
+            233,
+            364
+          ]
+        }
+      ],
+      "headings": [
+        "\u00b7 SPI Transmitter Data Interrupt (SPIxTIF/ SPIxTIE)"
+      ],
+      "token_count": 73,
+      "text_hash": "71eeb547edbb4153",
+      "char_length": 302,
+      "text": "\u00b7 SPI Transmitter Data Interrupt (SPIxTIF/ SPIxTIE)\n<text>The SPI Transmitter Data Interrupt is set when the TX register is not full and cleared when the TX register is full.  Like  the  Receiver  Data  Interrupt,  it  allows  fullyinterrupt driven operation and is also compatible with the DMA.</text>",
+      "resplit_of": null
+    },
+    "26": {
+      "chunk_id": 26,
+      "batch_index": 3,
+      "page_numbers": [
+        6
+      ],
+      "doc_item_refs": [
+        "#/texts/148"
+      ],
+      "item_geometry": [
+        {
+          "ref": "#/texts/148",
+          "page_no": 6,
+          "bbox": [
+            63,
+            596,
+            279,
+            627
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            53,
+            385,
+            233,
+            405
+          ]
+        }
+      ],
+      "headings": [
+        "\u00b7 Shift Register Empty Interrupt (SRMTIF/ SRMTIE)"
+      ],
+      "token_count": 55,
+      "text_hash": "96fed2cc12982a99",
+      "char_length": 218,
+      "text": "\u00b7 Shift Register Empty Interrupt (SRMTIF/ SRMTIE)\n<text>The Shift Register Empty Interrupt is only available in Master  mode  and  is  set  when  the  data  transfer  is complete but a new transfer is not ready.</text>",
+      "resplit_of": null
+    },
+    "27": {
+      "chunk_id": 27,
+      "batch_index": 3,
+      "page_numbers": [
+        6
+      ],
+      "doc_item_refs": [
+        "#/texts/150"
+      ],
+      "item_geometry": [
+        {
+          "ref": "#/texts/150",
+          "page_no": 6,
+          "bbox": [
+            315,
+            71,
+            531,
+            102
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            264,
+            46,
+            444,
+            66
+          ]
+        }
+      ],
+      "headings": [
+        "\u00b7 Transfer Counter is Zero Interrupt (TCZIF/ TCZIE)"
+      ],
+      "token_count": 43,
+      "text_hash": "502f7b4172a0e330",
+      "char_length": 196,
+      "text": "\u00b7 Transfer Counter is Zero Interrupt (TCZIF/ TCZIE)\n<text>The Transfer Counter is Zero Interrupt is raised when the transfer counter reaches zero. This bit must also be cleared in software.</text>",
+      "resplit_of": null
+    },
+    "28": {
+      "chunk_id": 28,
+      "batch_index": 3,
+      "page_numbers": [
+        6
+      ],
+      "doc_item_refs": [
+        "#/texts/152"
+      ],
+      "item_geometry": [
+        {
+          "ref": "#/texts/152",
+          "page_no": 6,
+          "bbox": [
+            315,
+            134,
+            531,
+            198
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            264,
+            87,
+            444,
+            128
+          ]
+        }
+      ],
+      "headings": [
+        "\u00b7 Start of Slave Select and End of Slave Select Interrupts (SOSIF/SOSIE and EOSIF/EOSIE)"
+      ],
+      "token_count": 115,
+      "text_hash": "1ae9779e181cc13e",
+      "char_length": 436,
+      "text": "\u00b7 Start of Slave Select and End of Slave Select Interrupts (SOSIF/SOSIE and EOSIF/EOSIE)\n<text>These  interrupts  are  triggered  on  the  leading  and trailing  edge  of  the  SS  input.  It  is  available  in  both Master and Slave mode. However, it should be noted that in Master mode, PPS should be used to route the SS input to the same pin as the SS output for these interrupts to trigger on the transitions of the SS line.</text>",
+      "resplit_of": null
+    },
+    "29": {
+      "chunk_id": 29,
+      "batch_index": 3,
+      "page_numbers": [
+        6
+      ],
+      "doc_item_refs": [
+        "#/texts/154",
+        "#/texts/155"
+      ],
+      "item_geometry": [
+        {
+          "ref": "#/texts/154",
+          "page_no": 6,
+          "bbox": [
+            315,
+            230,
+            531,
+            283
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            264,
+            149,
+            444,
+            183
+          ]
+        },
+        {
+          "ref": "#/texts/155",
+          "page_no": 6,
+          "bbox": [
+            315,
+            289,
+            531,
+            331
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            264,
+            187,
+            444,
+            214
+          ]
+        }
+      ],
+      "headings": [
+        "\u00b7 Receiver Overflow and Transmitter Underflow Interrupts (RXOIF/RXOIE and TXUIF/TXUIE)"
+      ],
+      "token_count": 138,
+      "text_hash": "15b712f461ee6a63",
+      "char_length": 543,
+      "text": "\u00b7 Receiver Overflow and Transmitter Underflow Interrupts (RXOIF/RXOIE and TXUIF/TXUIE)\n<text>The Receiver Overflow Interrupt triggers when there is data to be received but the RX register is full and the RXR  bit  is  set.  Similarly,  the  Transmitter  Underflow Interrupt triggers when there is no data to  be transmitted but the TXR bit is set.</text>\n<text>These conditions only occur in Slave mode and must be  cleared  through  software,  either  through  clearing the  individual flag bits or clearing  the  EN  bit  of SPIxCON0.</text>",
+      "resplit_of": null
+    },
+    "30": {
+      "chunk_id": 30,
+      "batch_index": 6,
+      "page_numbers": [
+        6
+      ],
+      "doc_item_refs": [
+        "#/texts/157"
+      ],
+      "item_geometry": [
+        {
+          "ref": "#/texts/157",
+          "page_no": 6,
+          "bbox": [
+            315,
+            367,
+            531,
+            552
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            264,
+            237,
+            444,
+            357
+          ]
+        }
+      ],
+      "headings": [
+        "CONCLUSION"
+      ],
+      "token_count": 197,
+      "text_hash": "7ef07159452ffea3",
+      "char_length": 935,
+      "text": "CONCLUSION\n<text>The SPI peripheral is a staple on all PIC \u00ae  MCU devices due to the popularity and widespread use of the featured protocol. The SPI peripheral included in the PIC MCU is capable of all the functionalities that might be needed for an SPI system. This technical brief has discussed the different modes of the SPI module and has briefly  described  how  each  role  (whether  master  or slave) and mode is set up and how data is transferred for each of the settings. There was also an overview of the new transfer counter feature that is present only for the dedicated SPI module. Interrupts that can be triggered upon a specific event related to the SPI activities were also discussed and will be of great help in watching out for the events mentioned in the document. With these  features,  the  PIC \u00ae   MCU  devices  prove  to  be robust  and  competent  platforms  for  any  application using the SPI protocol.</text>",
+      "resplit_of": null
+    },
+    "31": {
+      "chunk_id": 31,
+      "batch_index": 7,
+      "page_numbers": [
+        7
+      ],
+      "doc_item_refs": [
+        "#/texts/162",
+        "#/texts/163"
+      ],
+      "item_geometry": [
+        {
+          "ref": "#/texts/162",
+          "page_no": 7,
+          "bbox": [
+            87,
+            104,
+            276,
+            220
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            73,
+            67,
+            231,
+            142
+          ]
+        },
+        {
+          "ref": "#/texts/163",
+          "page_no": 7,
+          "bbox": [
+            380,
+            88,
+            545,
+            130
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            318,
+            57,
+            456,
+            84
+          ]
+        }
+      ],
+      "headings": [
+        "APPENDIX A: SAMPLE CODE FOR SPI BYTE EXCHANGE"
+      ],
+      "token_count": 111,
+      "text_hash": "5dac9490a719d202",
+      "char_length": 367,
+      "text": "APPENDIX A: SAMPLE CODE FOR SPI BYTE EXCHANGE\n<code>uint8_t SPI_ExchangeByte(uint8_t b) { uint8_t read; SPI1TXB = data; while(SPI1CON2bits.BUSY == 1); read = SPI1RXB; return read; }</code>\n<text>For Byte Exchange, if necessary, set the transfer counter before calling the function if  you  want  to  send  bytes  consecutively without deactivating the SS line.</text>",
+      "resplit_of": null
+    },
+    "32": {
+      "chunk_id": 32,
+      "batch_index": 7,
+      "page_numbers": [
+        7,
+        8
+      ],
+      "doc_item_refs": [
+        "#/texts/165",
+        "#/texts/166",
+        "#/texts/170"
+      ],
+      "item_geometry": [
+        {
+          "ref": "#/texts/165",
+          "page_no": 7,
+          "bbox": [
+            84,
+            256,
+            515,
+            383
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            70,
+            165,
+            431,
+            247
+          ]
+        },
+        {
+          "ref": "#/texts/166",
+          "page_no": 7,
+          "bbox": [
+            342,
+            88,
+            365,
+            97
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            286,
+            57,
+            305,
+            62
+          ]
+        },
+        {
+          "ref": "#/texts/170",
+          "page_no": 8,
+          "bbox": [
+            63,
+            71,
+            101,
+            80
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            53,
+            46,
+            84,
+            52
+          ]
+        }
+      ],
+      "headings": [
+        "APPENDIX B: SAMPLE CODE FOR SPI BLOCK EXCHANGE"
+      ],
+      "token_count": 96,
+      "text_hash": "54503ca07abc31d3",
+      "char_length": 342,
+      "text": "APPENDIX B: SAMPLE CODE FOR SPI BLOCK EXCHANGE\n<code>void SPI_ExchangeBlock(void *block, uint8_t blockSize) { //If necessary, set up transfer counter to transfer given number of bytes SPI1TCNTL = blockSize; uint8_t *data = block; while(blockSize--) { *data = SPI_ExchangeByte(*data ); data++; } }</code>\n<text>Note:</text>\n<text>NOTES:</text>",
+      "resplit_of": null
+    },
+    "33": {
+      "chunk_id": 33,
+      "batch_index": 7,
+      "page_numbers": [
+        9
+      ],
+      "doc_item_refs": [
+        "#/texts/173",
+        "#/texts/174",
+        "#/texts/175",
+        "#/texts/176",
+        "#/texts/177",
+        "#/texts/178"
+      ],
+      "item_geometry": [
+        {
+          "ref": "#/texts/173",
+          "page_no": 9,
+          "bbox": [
+            82,
+            93,
+            425,
+            100
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            68,
+            60,
+            356,
+            65
+          ]
+        },
+        {
+          "ref": "#/texts/174",
+          "page_no": 9,
+          "bbox": [
+            82,
+            111,
+            549,
+            128
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            68,
+            72,
+            459,
+            83
+          ]
+        },
+        {
+          "ref": "#/texts/175",
+          "page_no": 9,
+          "bbox": [
+            82,
+            139,
+            549,
+            166
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            68,
+            90,
+            459,
+            107
+          ]
+        },
+        {
+          "ref": "#/texts/176",
+          "page_no": 9,
+          "bbox": [
+            82,
+            177,
+            438,
+            184
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            68,
+            114,
+            366,
+            119
+          ]
+        },
+        {
+          "ref": "#/texts/177",
+          "page_no": 9,
+          "bbox": [
+            82,
+            195,
+            549,
+            212
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            68,
+            126,
+            460,
+            137
+          ]
+        },
+        {
+          "ref": "#/texts/178",
+          "page_no": 9,
+          "bbox": [
+            82,
+            223,
+            549,
+            250
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            68,
+            144,
+            459,
+            162
+          ]
+        }
+      ],
+      "headings": [
+        "Note the following details of the code protection feature on Microchip devices:"
+      ],
+      "token_count": 327,
+      "text_hash": "4fbec8bdf206ff39",
+      "char_length": 1569,
+      "text": "Note the following details of the code protection feature on Microchip devices:\n<ldiv><marker>\u00b7</marker></ldiv>Microchip products meet the specification contained in their particular Microchip Data Sheet.\n<ldiv><marker>\u00b7</marker></ldiv>Microchip believes that its family of products is one of the most secure families of its kind on the market today, when used in the intended manner and under normal conditions.\n<ldiv><marker>\u00b7</marker></ldiv><![CDATA[There are dishonest and possibly illegal methods used to breach the code protection feature. All of these methods, to our knowledge, require using the Microchip products in a manner outside the operating specifications contained in Microchip's Data Sheets. Most likely, the person doing so is engaged in theft of intellectual property.]]>\n<ldiv><marker>\u00b7</marker></ldiv>Microchip is willing to work with the customer who is concerned about the integrity of their code.\n<ldiv><marker>\u00b7</marker></ldiv><![CDATA[Neither Microchip nor any other semiconductor manufacturer can guarantee the security of their code. Code protection does not mean that we are guaranteeing the product as 'unbreakable.']]>\n<text><![CDATA[Code protection is constantly evolving. We at Microchip are committed to continuously improving the code protection features of our products. Attempts to break Microchip's code protection feature may be a violation of the Digital Millennium Copyright Act. If such acts allow unauthorized access to your software or other copyrighted work, you may have a right to sue for relief under that Act.]]></text>",
+      "resplit_of": null
+    },
+    "34": {
+      "chunk_id": 34,
+      "batch_index": 7,
+      "page_numbers": [
+        9
+      ],
+      "doc_item_refs": [
+        "#/texts/179"
+      ],
+      "item_geometry": [
+        {
+          "ref": "#/texts/179",
+          "page_no": 9,
+          "bbox": [
+            81,
+            278,
+            297,
+            455
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            68,
+            180,
+            249,
+            294
+          ]
+        }
+      ],
+      "headings": [
+        "Note the following details of the code protection feature on Microchip devices:"
+      ],
+      "token_count": 256,
+      "text_hash": "b645e567d3dce555",
+      "char_length": 1123,
+      "text": "Note the following details of the code protection feature on Microchip devices:\n<text><![CDATA[Information  contained  in  this  publication  regarding  device applications and the like is provided only for your convenience and may be superseded by updates. It is your responsibility to ensure  that  your  application  meets  with  your  specifications. MICROCHIP MAKES NO REPRESENTATIONS OR WARRANTIES  OF  ANY  KIND  WHETHER  EXPRESS  OR IMPLIED, WRITTEN OR ORAL, STATUTORY OR OTHERWISE, RELATED TO THE INFORMATION, INCLUDING  BUT  NOT  LIMITED  TO  ITS  CONDITION, QUALITY, PERFORMANCE, MERCHANTABILITY OR FITNESS  FOR  PURPOSE . Microchip  disclaims  all  liability arising  from  this  information  and  its  use.  Use  of  Microchip devices in life support and/or safety applications is entirely at the buyer's risk, and the buyer agrees to defend, indemnify and hold  harmless  Microchip  from  any  and  all  damages,  claims, suits,  or  expenses  resulting  from  such  use.  No  licenses  are conveyed, implicitly or otherwise, under any Microchip intellectual property rights unless otherwise stated.]]></text>",
+      "resplit_of": null
+    },
+    "35": {
+      "chunk_id": 35,
+      "batch_index": 4,
+      "page_numbers": [
+        9
+      ],
+      "doc_item_refs": [
+        "#/texts/180"
+      ],
+      "item_geometry": [
+        {
+          "ref": "#/texts/180",
+          "page_no": 9,
+          "bbox": [
+            82,
+            582,
+            298,
+            641
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            68,
+            377,
+            249,
+            415
+          ]
+        }
+      ],
+      "headings": [
+        "Note the following details of the code protection feature on Microchip devices:"
+      ],
+      "token_count": 143,
+      "text_hash": "322bbd70681492a6",
+      "char_length": 644,
+      "text": "Note the following details of the code protection feature on Microchip devices:\n<text><![CDATA[Microchip received ISO/TS-16949:2009 certification for its worldwide headquarters, design and wafer fabrication facilities in Chandler and Tempe, Arizona; Gresham, Oregon and design centers in California and India. The Company's quality system processes and procedures are for its PIC \u00ae  MCUs and dsPIC \u00ae  DSCs, KEELOQ \u00ae  code hopping devices, Serial EEPROMs, microperipherals, nonvolatile memory and analog products. In addition, Microchip's quality system for the design and manufacture of development systems is ISO 9001:2000 certified.]]></text>",
+      "resplit_of": null
+    },
+    "36": {
+      "chunk_id": 36,
+      "batch_index": 4,
+      "page_numbers": [
+        9
+      ],
+      "doc_item_refs": [
+        "#/texts/184",
+        "#/texts/185"
+      ],
+      "item_geometry": [
+        {
+          "ref": "#/texts/184",
+          "page_no": 9,
+          "bbox": [
+            333,
+            291,
+            549,
+            384
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            279,
+            188,
+            460,
+            248
+          ]
+        },
+        {
+          "ref": "#/texts/185",
+          "page_no": 9,
+          "bbox": [
+            333,
+            389,
+            548,
+            424
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            279,
+            252,
+            458,
+            274
+          ]
+        }
+      ],
+      "headings": [
+        "Trademarks"
+      ],
+      "token_count": 233,
+      "text_hash": "401cebbd70e18a04",
+      "char_length": 807,
+      "text": "Trademarks\n<text>The Microchip name and logo, the Microchip logo, AnyRate, AVR, AVR logo, AVR Freaks, BeaconThings, BitCloud, CryptoMemory, CryptoRF, dsPIC, FlashFlex, flexPWR, Heldo, JukeBlox, KEELOQ, KEELOQ logo, Kleer, LANCheck, LINK MD, maXStylus, maXTouch, MediaLB, megaAVR, MOST, MOST logo, MPLAB, OptoLyzer, PIC, picoPower, PICSTART, PIC32 logo, Prochip Designer, QTouch, RightTouch, SAM-BA, SpyNIC, SST, SST Logo, SuperFlash, tinyAVR, UNI/O, and XMEGA are registered trademarks of Microchip Technology Incorporated in the U.S.A. and other countries.</text>\n<text>ClockWorks, The Embedded Control Solutions Company, EtherSynch, Hyper Speed Control, HyperLight Load, IntelliMOS, mTouch, Precision Edge, and Quiet-Wire are registered trademarks of Microchip Technology Incorporated in the U.S.A.</text>",
+      "resplit_of": null
+    },
+    "37": {
+      "chunk_id": 37,
+      "batch_index": 4,
+      "page_numbers": [
+        9
+      ],
+      "doc_item_refs": [
+        "#/texts/186",
+        "#/texts/187",
+        "#/texts/188",
+        "#/texts/189",
+        "#/texts/190",
+        "#/texts/191"
+      ],
+      "item_geometry": [
+        {
+          "ref": "#/texts/186",
+          "page_no": 9,
+          "bbox": [
+            333,
+            430,
+            550,
+            570
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            279,
+            278,
+            460,
+            368
+          ]
+        },
+        {
+          "ref": "#/texts/187",
+          "page_no": 9,
+          "bbox": [
+            333,
+            576,
+            548,
+            592
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            279,
+            372,
+            459,
+            383
+          ]
+        },
+        {
+          "ref": "#/texts/188",
+          "page_no": 9,
+          "bbox": [
+            333,
+            598,
+            549,
+            614
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            279,
+            386,
+            460,
+            397
+          ]
+        },
+        {
+          "ref": "#/texts/189",
+          "page_no": 9,
+          "bbox": [
+            333,
+            620,
+            550,
+            646
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            279,
+            401,
+            460,
+            417
+          ]
+        },
+        {
+          "ref": "#/texts/190",
+          "page_no": 9,
+          "bbox": [
+            333,
+            651,
+            530,
+            667
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            279,
+            421,
+            443,
+            431
+          ]
+        },
+        {
+          "ref": "#/texts/191",
+          "page_no": 9,
+          "bbox": [
+            333,
+            673,
+            549,
+            693
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            279,
+            435,
+            460,
+            448
+          ]
+        }
+      ],
+      "headings": [
+        "Trademarks"
+      ],
+      "token_count": 378,
+      "text_hash": "1d938a657f52e434",
+      "char_length": 1435,
+      "text": "Trademarks\n<text>Adjacent Key Suppression, AKS, Analog-for-the-Digital Age, Any Capacitor, AnyIn, AnyOut, BodyCom, chipKIT, chipKIT logo, CodeGuard, CryptoAuthentication, CryptoCompanion, CryptoController, dsPICDEM, dsPICDEM.net, Dynamic Average Matching, DAM, ECAN, EtherGREEN, In-Circuit Serial Programming, ICSP, Inter-Chip Connectivity, JitterBlocker, KleerNet, KleerNet logo, Mindi, MiWi, motorBench, MPASM, MPF, MPLAB Certified logo, MPLIB, MPLINK, MultiTRAK, NetDetach, Omniscient Code Generation, PICDEM, PICDEM.net, PICkit, PICtail, PureSilicon, QMatrix, RightTouch logo, REAL ICE, Ripple Blocker, SAM-ICE, Serial Quad I/O, SMART-I.S., SQI, SuperSwitcher, SuperSwitcher II, Total Endurance, TSHARC, USBCheck, VariSense, ViewSpan, WiperLock, Wireless DNA, and ZENA are trademarks of Microchip Technology Incorporated in the U.S.A. and other countries.</text>\n<text>SQTP is a service mark of Microchip Technology Incorporated in the U.S.A.</text>\n<text>Silicon Storage Technology is a registered trademark of Microchip Technology Inc. in other countries.</text>\n<text><![CDATA[GestIC is a registered trademark of Microchip Technology Germany II GmbH & Co. KG, a subsidiary of Microchip Technology Inc., in other countries.]]></text>\n<text>All other trademarks mentioned herein are property of their respective companies.</text>\n<text>\u00a9 2017, Microchip Technology Incorporated, All Rights Reserved. ISBN: 978-1-5224-1400-1</text>",
+      "resplit_of": null
+    },
+    "38": {
+      "chunk_id": 38,
+      "batch_index": 4,
+      "page_numbers": [
+        10
+      ],
+      "doc_item_refs": [
+        "#/texts/197",
+        "#/texts/198",
+        "#/texts/199",
+        "#/texts/200",
+        "#/texts/201",
+        "#/texts/202",
+        "#/texts/203",
+        "#/texts/204",
+        "#/texts/205",
+        "#/texts/206",
+        "#/texts/207",
+        "#/texts/208"
+      ],
+      "item_geometry": [
+        {
+          "ref": "#/texts/197",
+          "page_no": 10,
+          "bbox": [
+            184,
+            173,
+            279,
+            209
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            154,
+            112,
+            233,
+            135
+          ]
+        },
+        {
+          "ref": "#/texts/198",
+          "page_no": 10,
+          "bbox": [
+            184,
+            215,
+            256,
+            241
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            154,
+            139,
+            214,
+            156
+          ]
+        },
+        {
+          "ref": "#/texts/199",
+          "page_no": 10,
+          "bbox": [
+            184,
+            247,
+            259,
+            273
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            154,
+            159,
+            217,
+            176
+          ]
+        },
+        {
+          "ref": "#/texts/200",
+          "page_no": 10,
+          "bbox": [
+            184,
+            279,
+            264,
+            305
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            154,
+            180,
+            221,
+            197
+          ]
+        },
+        {
+          "ref": "#/texts/201",
+          "page_no": 10,
+          "bbox": [
+            184,
+            311,
+            264,
+            337
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            154,
+            201,
+            221,
+            218
+          ]
+        },
+        {
+          "ref": "#/texts/202",
+          "page_no": 10,
+          "bbox": [
+            184,
+            343,
+            264,
+            369
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            154,
+            222,
+            221,
+            239
+          ]
+        },
+        {
+          "ref": "#/texts/203",
+          "page_no": 10,
+          "bbox": [
+            184,
+            375,
+            267,
+            391
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            154,
+            242,
+            224,
+            253
+          ]
+        },
+        {
+          "ref": "#/texts/204",
+          "page_no": 10,
+          "bbox": [
+            184,
+            397,
+            263,
+            413
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            154,
+            256,
+            220,
+            267
+          ]
+        },
+        {
+          "ref": "#/texts/205",
+          "page_no": 10,
+          "bbox": [
+            184,
+            419,
+            267,
+            445
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            154,
+            271,
+            224,
+            288
+          ]
+        },
+        {
+          "ref": "#/texts/206",
+          "page_no": 10,
+          "bbox": [
+            184,
+            451,
+            276,
+            477
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            154,
+            291,
+            231,
+            308
+          ]
+        },
+        {
+          "ref": "#/texts/207",
+          "page_no": 10,
+          "bbox": [
+            184,
+            483,
+            264,
+            509
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            154,
+            312,
+            221,
+            329
+          ]
+        },
+        {
+          "ref": "#/texts/208",
+          "page_no": 10,
+          "bbox": [
+            184,
+            515,
+            268,
+            541
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            154,
+            333,
+            224,
+            350
+          ]
+        }
+      ],
+      "headings": [
+        "ASIA/PACIFIC"
+      ],
+      "token_count": 379,
+      "text_hash": "e56cabf76ac8240a",
+      "char_length": 858,
+      "text": "ASIA/PACIFIC\n<text>Asia Pacific Office Suites 3707-14, 37th Floor Tower 6, The Gateway Harbour City, Kowloon</text>\n<text>Hong Kong Tel: 852-2943-5100 Fax: 852-2401-3431</text>\n<text>Australia - Sydney Tel: 61-2-9868-6733 Fax: 61-2-9868-6755</text>\n<text>China - Beijing Tel: 86-10-8569-7000 Fax: 86-10-8528-2104</text>\n<text>China - Chengdu Tel: 86-28-8665-5511 Fax: 86-28-8665-7889</text>\n<text>China - Chongqing Tel: 86-23-8980-9588 Fax: 86-23-8980-9500</text>\n<text>China - Dongguan Tel: 86-769-8702-9880</text>\n<text>China - Guangzhou Tel: 86-20-8755-8029</text>\n<text>China - Hangzhou Tel: 86-571-8792-8115 Fax: 86-571-8792-8116</text>\n<text>China - Hong Kong SAR Tel: 852-2943-5100 Fax: 852-2401-3431</text>\n<text>China - Nanjing Tel: 86-25-8473-2460 Fax: 86-25-8473-2470</text>\n<text>China - Qingdao Tel: 86-532-8502-7355 Fax: 86-532-8502-7205</text>",
+      "resplit_of": null
+    },
+    "39": {
+      "chunk_id": 39,
+      "batch_index": 4,
+      "page_numbers": [
+        10
+      ],
+      "doc_item_refs": [
+        "#/texts/209",
+        "#/texts/210",
+        "#/texts/211",
+        "#/texts/212",
+        "#/texts/213",
+        "#/texts/215",
+        "#/texts/216",
+        "#/texts/217",
+        "#/texts/218",
+        "#/texts/219",
+        "#/texts/220"
+      ],
+      "item_geometry": [
+        {
+          "ref": "#/texts/209",
+          "page_no": 10,
+          "bbox": [
+            184,
+            547,
+            264,
+            573
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            154,
+            353,
+            221,
+            370
+          ]
+        },
+        {
+          "ref": "#/texts/210",
+          "page_no": 10,
+          "bbox": [
+            184,
+            579,
+            264,
+            605
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            154,
+            374,
+            221,
+            391
+          ]
+        },
+        {
+          "ref": "#/texts/211",
+          "page_no": 10,
+          "bbox": [
+            184,
+            611,
+            268,
+            637
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            154,
+            395,
+            224,
+            412
+          ]
+        },
+        {
+          "ref": "#/texts/212",
+          "page_no": 10,
+          "bbox": [
+            184,
+            643,
+            263,
+            669
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            154,
+            415,
+            220,
+            432
+          ]
+        },
+        {
+          "ref": "#/texts/213",
+          "page_no": 10,
+          "bbox": [
+            184,
+            675,
+            264,
+            701
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            154,
+            436,
+            221,
+            453
+          ]
+        },
+        {
+          "ref": "#/texts/215",
+          "page_no": 10,
+          "bbox": [
+            306,
+            173,
+            382,
+            199
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            256,
+            112,
+            320,
+            129
+          ]
+        },
+        {
+          "ref": "#/texts/216",
+          "page_no": 10,
+          "bbox": [
+            306,
+            205,
+            382,
+            231
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            256,
+            132,
+            320,
+            149
+          ]
+        },
+        {
+          "ref": "#/texts/217",
+          "page_no": 10,
+          "bbox": [
+            306,
+            237,
+            385,
+            263
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            256,
+            153,
+            322,
+            170
+          ]
+        },
+        {
+          "ref": "#/texts/218",
+          "page_no": 10,
+          "bbox": [
+            306,
+            269,
+            384,
+            295
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            256,
+            174,
+            322,
+            191
+          ]
+        },
+        {
+          "ref": "#/texts/219",
+          "page_no": 10,
+          "bbox": [
+            306,
+            301,
+            382,
+            317
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            256,
+            194,
+            320,
+            205
+          ]
+        },
+        {
+          "ref": "#/texts/220",
+          "page_no": 10,
+          "bbox": [
+            306,
+            323,
+            381,
+            349
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            256,
+            209,
+            318,
+            226
+          ]
+        }
+      ],
+      "headings": [
+        "ASIA/PACIFIC"
+      ],
+      "token_count": 359,
+      "text_hash": "49febe90e9ef9d72",
+      "char_length": 763,
+      "text": "ASIA/PACIFIC\n<text>China - Shanghai Tel: 86-21-3326-8000 Fax: 86-21-3326-8021</text>\n<text>China - Shenyang Tel: 86-24-2334-2829 Fax: 86-24-2334-2393</text>\n<text>China - Shenzhen Tel: 86-755-8864-2200 Fax: 86-755-8203-1760</text>\n<text>China - Wuhan Tel: 86-27-5980-5300 Fax: 86-27-5980-5118</text>\n<text>China - Xian Tel: 86-29-8833-7252 Fax: 86-29-8833-7256</text>\n<text>China - Xiamen Tel: 86-592-2388138 Fax: 86-592-2388130</text>\n<text>China - Zhuhai Tel: 86-756-3210040 Fax: 86-756-3210049</text>\n<text>India - Bangalore Tel: 91-80-3090-4444 Fax: 91-80-3090-4123</text>\n<text>India - New Delhi Tel: 91-11-4160-8631 Fax: 91-11-4160-8632</text>\n<text>India - Pune Tel: 91-20-3019-1500</text>\n<text>Japan - Osaka Tel: 81-6-6152-7160 Fax: 81-6-6152-9310</text>",
+      "resplit_of": null
+    },
+    "40": {
+      "chunk_id": 40,
+      "batch_index": 5,
+      "page_numbers": [
+        10
+      ],
+      "doc_item_refs": [
+        "#/texts/221",
+        "#/texts/222",
+        "#/texts/223",
+        "#/texts/224",
+        "#/texts/225",
+        "#/texts/226",
+        "#/texts/227",
+        "#/texts/228",
+        "#/texts/229",
+        "#/texts/230",
+        "#/texts/231"
+      ],
+      "item_geometry": [
+        {
+          "ref": "#/texts/221",
+          "page_no": 10,
+          "bbox": [
+            306,
+            355,
+            382,
+            381
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            256,
+            229,
+            320,
+            246
+          ]
+        },
+        {
+          "ref": "#/texts/222",
+          "page_no": 10,
+          "bbox": [
+            306,
+            387,
+            381,
+            413
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            256,
+            250,
+            318,
+            267
+          ]
+        },
+        {
+          "ref": "#/texts/223",
+          "page_no": 10,
+          "bbox": [
+            306,
+            419,
+            388,
+            455
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            256,
+            271,
+            324,
+            294
+          ]
+        },
+        {
+          "ref": "#/texts/224",
+          "page_no": 10,
+          "bbox": [
+            306,
+            461,
+            400,
+            487
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            256,
+            298,
+            335,
+            315
+          ]
+        },
+        {
+          "ref": "#/texts/225",
+          "page_no": 10,
+          "bbox": [
+            306,
+            493,
+            376,
+            519
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            256,
+            319,
+            315,
+            336
+          ]
+        },
+        {
+          "ref": "#/texts/226",
+          "page_no": 10,
+          "bbox": [
+            306,
+            525,
+            381,
+            551
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            256,
+            339,
+            318,
+            356
+          ]
+        },
+        {
+          "ref": "#/texts/227",
+          "page_no": 10,
+          "bbox": [
+            306,
+            557,
+            374,
+            583
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            256,
+            360,
+            312,
+            377
+          ]
+        },
+        {
+          "ref": "#/texts/228",
+          "page_no": 10,
+          "bbox": [
+            306,
+            589,
+            381,
+            615
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            256,
+            381,
+            318,
+            398
+          ]
+        },
+        {
+          "ref": "#/texts/229",
+          "page_no": 10,
+          "bbox": [
+            306,
+            621,
+            381,
+            637
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            256,
+            401,
+            319,
+            412
+          ]
+        },
+        {
+          "ref": "#/texts/230",
+          "page_no": 10,
+          "bbox": [
+            306,
+            643,
+            385,
+            669
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            256,
+            415,
+            322,
+            432
+          ]
+        },
+        {
+          "ref": "#/texts/231",
+          "page_no": 10,
+          "bbox": [
+            306,
+            675,
+            380,
+            701
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            256,
+            436,
+            318,
+            453
+          ]
+        }
+      ],
+      "headings": [
+        "ASIA/PACIFIC"
+      ],
+      "token_count": 366,
+      "text_hash": "a918069fdff1a018",
+      "char_length": 770,
+      "text": "ASIA/PACIFIC\n<text>Japan - Tokyo Tel: 81-3-6880- 3770 Fax: 81-3-6880-3771</text>\n<text>Korea - Daegu Tel: 82-53-744-4301 Fax: 82-53-744-4302</text>\n<text>Korea - Seoul Tel: 82-2-554-7200 Fax: 82-2-558-5932 or 82-2-558-5934</text>\n<text>Malaysia - Kuala Lumpur Tel: 60-3-6201-9857 Fax: 60-3-6201-9859</text>\n<text>Malaysia - Penang Tel: 60-4-227-8870 Fax: 60-4-227-4068</text>\n<text>Philippines - Manila Tel: 63-2-634-9065 Fax: 63-2-634-9069</text>\n<text>Singapore Tel: 65-6334-8870 Fax: 65-6334-8850</text>\n<text>Taiwan - Hsin Chu Tel: 886-3-5778-366 Fax: 886-3-5770-955</text>\n<text>Taiwan - Kaohsiung Tel: 886-7-213-7830</text>\n<text>Taiwan - Taipei Tel: 886-2-2508-8600 Fax: 886-2-2508-0102</text>\n<text>Thailand - Bangkok Tel: 66-2-694-1351 Fax: 66-2-694-1350</text>",
+      "resplit_of": null
+    },
+    "41": {
+      "chunk_id": 41,
+      "batch_index": 5,
+      "page_numbers": [
+        10
+      ],
+      "doc_item_refs": [
+        "#/texts/233",
+        "#/texts/234",
+        "#/texts/235",
+        "#/texts/236",
+        "#/texts/237",
+        "#/texts/238",
+        "#/texts/239",
+        "#/texts/240",
+        "#/texts/241",
+        "#/texts/242",
+        "#/texts/243",
+        "#/texts/244",
+        "#/texts/245",
+        "#/texts/246",
+        "#/texts/247"
+      ],
+      "item_geometry": [
+        {
+          "ref": "#/texts/233",
+          "page_no": 10,
+          "bbox": [
+            63,
+            173,
+            156,
+            229
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            53,
+            112,
+            130,
+            148
+          ]
+        },
+        {
+          "ref": "#/texts/234",
+          "page_no": 10,
+          "bbox": [
+            63,
+            232,
+            156,
+            249
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            53,
+            150,
+            130,
+            161
+          ]
+        },
+        {
+          "ref": "#/texts/235",
+          "page_no": 10,
+          "bbox": [
+            63,
+            252,
+            115,
+            259
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            53,
+            163,
+            96,
+            167
+          ]
+        },
+        {
+          "ref": "#/texts/236",
+          "page_no": 10,
+          "bbox": [
+            63,
+            262,
+            134,
+            269
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            53,
+            169,
+            112,
+            174
+          ]
+        },
+        {
+          "ref": "#/texts/237",
+          "page_no": 10,
+          "bbox": [
+            63,
+            275,
+            131,
+            311
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            53,
+            178,
+            109,
+            201
+          ]
+        },
+        {
+          "ref": "#/texts/238",
+          "page_no": 10,
+          "bbox": [
+            63,
+            317,
+            130,
+            333
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            53,
+            205,
+            108,
+            215
+          ]
+        },
+        {
+          "ref": "#/texts/239",
+          "page_no": 10,
+          "bbox": [
+            63,
+            339,
+            131,
+            375
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            53,
+            219,
+            109,
+            242
+          ]
+        },
+        {
+          "ref": "#/texts/240",
+          "page_no": 10,
+          "bbox": [
+            63,
+            381,
+            131,
+            417
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            53,
+            246,
+            109,
+            270
+          ]
+        },
+        {
+          "ref": "#/texts/241",
+          "page_no": 10,
+          "bbox": [
+            63,
+            423,
+            131,
+            459
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            53,
+            273,
+            109,
+            297
+          ]
+        },
+        {
+          "ref": "#/texts/242",
+          "page_no": 10,
+          "bbox": [
+            63,
+            465,
+            127,
+            491
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            53,
+            300,
+            107,
+            317
+          ]
+        },
+        {
+          "ref": "#/texts/243",
+          "page_no": 10,
+          "bbox": [
+            63,
+            497,
+            127,
+            513
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            53,
+            321,
+            107,
+            332
+          ]
+        },
+        {
+          "ref": "#/texts/244",
+          "page_no": 10,
+          "bbox": [
+            63,
+            519,
+            131,
+            565
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            53,
+            335,
+            109,
+            365
+          ]
+        },
+        {
+          "ref": "#/texts/245",
+          "page_no": 10,
+          "bbox": [
+            63,
+            571,
+            131,
+            617
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            53,
+            369,
+            109,
+            399
+          ]
+        },
+        {
+          "ref": "#/texts/246",
+          "page_no": 10,
+          "bbox": [
+            63,
+            623,
+            127,
+            639
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            53,
+            403,
+            107,
+            413
+          ]
+        },
+        {
+          "ref": "#/texts/247",
+          "page_no": 10,
+          "bbox": [
+            63,
+            645,
+            127,
+            661
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            53,
+            417,
+            107,
+            427
+          ]
+        }
+      ],
+      "headings": [
+        "AMERICAS"
+      ],
+      "token_count": 378,
+      "text_hash": "485ba41d5dee938f",
+      "char_length": 978,
+      "text": "AMERICAS\n<text>Corporate Office 2355 West Chandler Blvd. Chandler, AZ 85224-6199 Tel: 480-792-7200 Fax: 480-792-7277 Technical Support:</text>\n<text><href uri=\"http://support.microchip.com/\"/>http://www.microchip.com/ support</text>\n<text>Web Address:</text>\n<text>www.microchip.com</text>\n<text>Atlanta Duluth, GA Tel: 678-957-9614 Fax: 678-957-1455</text>\n<text>Austin, TX Tel: 512-257-3370</text>\n<text>Boston Westborough, MA Tel: 774-760-0087 Fax: 774-760-0088</text>\n<text>Chicago Itasca, IL Tel: 630-285-0071 Fax: 630-285-0075</text>\n<text>Dallas Addison, TX Tel: 972-818-7423 Fax: 972-818-2924</text>\n<text>Detroit Novi, MI Tel: 248-848-4000</text>\n<text>Houston, TX Tel: 281-894-5983</text>\n<text>Indianapolis Noblesville, IN Tel: 317-773-8323 Fax: 317-773-5453 Tel: 317-536-2380</text>\n<text>Los Angeles Mission Viejo, CA Tel: 949-462-9523 Fax: 949-462-9608 Tel: 951-273-7800</text>\n<text>Raleigh, NC Tel: 919-844-7510</text>\n<text>New York, NY Tel: 631-435-6000</text>",
+      "resplit_of": null
+    },
+    "42": {
+      "chunk_id": 42,
+      "batch_index": 5,
+      "page_numbers": [
+        10
+      ],
+      "doc_item_refs": [
+        "#/texts/248",
+        "#/texts/249"
+      ],
+      "item_geometry": [
+        {
+          "ref": "#/texts/248",
+          "page_no": 10,
+          "bbox": [
+            63,
+            667,
+            127,
+            693
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            53,
+            431,
+            107,
+            448
+          ]
+        },
+        {
+          "ref": "#/texts/249",
+          "page_no": 10,
+          "bbox": [
+            63,
+            699,
+            131,
+            725
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            53,
+            452,
+            109,
+            469
+          ]
+        }
+      ],
+      "headings": [
+        "AMERICAS"
+      ],
+      "token_count": 59,
+      "text_hash": "03679b214ad953cb",
+      "char_length": 136,
+      "text": "AMERICAS\n<text>San Jose, CA Tel: 408-735-9110 Tel: 408-436-4270</text>\n<text>Canada - Toronto Tel: 905-695-1980 Fax: 905-695-2078</text>",
+      "resplit_of": null
+    },
+    "43": {
+      "chunk_id": 43,
+      "batch_index": 5,
+      "page_numbers": [
+        10
+      ],
+      "doc_item_refs": [
+        "#/texts/251",
+        "#/texts/252",
+        "#/texts/253",
+        "#/texts/254",
+        "#/texts/255",
+        "#/texts/256",
+        "#/texts/257",
+        "#/texts/258",
+        "#/texts/259",
+        "#/texts/260",
+        "#/texts/261",
+        "#/texts/262",
+        "#/texts/263"
+      ],
+      "item_geometry": [
+        {
+          "ref": "#/texts/251",
+          "page_no": 10,
+          "bbox": [
+            428,
+            173,
+            511,
+            199
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            358,
+            112,
+            428,
+            129
+          ]
+        },
+        {
+          "ref": "#/texts/252",
+          "page_no": 10,
+          "bbox": [
+            428,
+            205,
+            517,
+            231
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            358,
+            132,
+            433,
+            149
+          ]
+        },
+        {
+          "ref": "#/texts/253",
+          "page_no": 10,
+          "bbox": [
+            428,
+            237,
+            499,
+            253
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            358,
+            153,
+            418,
+            164
+          ]
+        },
+        {
+          "ref": "#/texts/254",
+          "page_no": 10,
+          "bbox": [
+            428,
+            259,
+            508,
+            285
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            358,
+            167,
+            425,
+            184
+          ]
+        },
+        {
+          "ref": "#/texts/255",
+          "page_no": 10,
+          "bbox": [
+            428,
+            291,
+            507,
+            307
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            358,
+            188,
+            424,
+            198
+          ]
+        },
+        {
+          "ref": "#/texts/256",
+          "page_no": 10,
+          "bbox": [
+            428,
+            313,
+            505,
+            349
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            358,
+            202,
+            423,
+            226
+          ]
+        },
+        {
+          "ref": "#/texts/257",
+          "page_no": 10,
+          "bbox": [
+            428,
+            355,
+            507,
+            371
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            358,
+            229,
+            424,
+            240
+          ]
+        },
+        {
+          "ref": "#/texts/258",
+          "page_no": 10,
+          "bbox": [
+            428,
+            377,
+            507,
+            393
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            358,
+            243,
+            424,
+            254
+          ]
+        },
+        {
+          "ref": "#/texts/259",
+          "page_no": 10,
+          "bbox": [
+            428,
+            399,
+            509,
+            425
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            358,
+            258,
+            426,
+            275
+          ]
+        },
+        {
+          "ref": "#/texts/260",
+          "page_no": 10,
+          "bbox": [
+            428,
+            431,
+            512,
+            447
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            358,
+            278,
+            429,
+            289
+          ]
+        },
+        {
+          "ref": "#/texts/261",
+          "page_no": 10,
+          "bbox": [
+            428,
+            453,
+            499,
+            469
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            358,
+            293,
+            418,
+            303
+          ]
+        },
+        {
+          "ref": "#/texts/262",
+          "page_no": 10,
+          "bbox": [
+            428,
+            475,
+            504,
+            501
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            358,
+            307,
+            422,
+            324
+          ]
+        },
+        {
+          "ref": "#/texts/263",
+          "page_no": 10,
+          "bbox": [
+            428,
+            507,
+            503,
+            523
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            358,
+            328,
+            421,
+            338
+          ]
+        }
+      ],
+      "headings": [
+        "EUROPE"
+      ],
+      "token_count": 356,
+      "text_hash": "44926e69d7ebe28b",
+      "char_length": 821,
+      "text": "EUROPE\n<text>Austria - Wels Tel: 43-7242-2244-39 Fax: 43-7242-2244-393</text>\n<text>Denmark - Copenhagen Tel: 45-4450-2828 Fax: 45-4485-2829</text>\n<text>Finland - Espoo Tel: 358-9-4520-820</text>\n<text>France - Paris Tel: 33-1-69-53-63-20 Fax: 33-1-69-30-90-79</text>\n<text>France - Saint Cloud Tel: 33-1-30-60-70-00</text>\n<text>Germany - Garching Tel: 49-8931-9700 Germany - Haan Tel: 49-2129-3766400</text>\n<text>Germany - Heilbronn Tel: 49-7131-67-3636</text>\n<text>Germany - Karlsruhe Tel: 49-721-625370</text>\n<text>Germany - Munich Tel: 49-89-627-144-0 Fax: 49-89-627-144-44</text>\n<text>Germany - Rosenheim Tel: 49-8031-354-560</text>\n<text><![CDATA[Israel - Ra'anana Tel: 972-9-744-7705]]></text>\n<text>Italy - Milan Tel: 39-0331-742611 Fax: 39-0331-466781</text>\n<text>Italy - Padova Tel: 39-049-7625286</text>",
+      "resplit_of": null
+    },
+    "44": {
+      "chunk_id": 44,
+      "batch_index": 5,
+      "page_numbers": [
+        10
+      ],
+      "doc_item_refs": [
+        "#/texts/264",
+        "#/texts/265",
+        "#/texts/266",
+        "#/texts/267",
+        "#/texts/268",
+        "#/texts/269",
+        "#/texts/270",
+        "#/texts/271"
+      ],
+      "item_geometry": [
+        {
+          "ref": "#/texts/264",
+          "page_no": 10,
+          "bbox": [
+            428,
+            529,
+            509,
+            555
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            358,
+            342,
+            426,
+            359
+          ]
+        },
+        {
+          "ref": "#/texts/265",
+          "page_no": 10,
+          "bbox": [
+            428,
+            561,
+            504,
+            577
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            358,
+            363,
+            422,
+            373
+          ]
+        },
+        {
+          "ref": "#/texts/266",
+          "page_no": 10,
+          "bbox": [
+            428,
+            583,
+            499,
+            600
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            358,
+            377,
+            417,
+            388
+          ]
+        },
+        {
+          "ref": "#/texts/267",
+          "page_no": 10,
+          "bbox": [
+            428,
+            606,
+            508,
+            623
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            358,
+            392,
+            425,
+            403
+          ]
+        },
+        {
+          "ref": "#/texts/268",
+          "page_no": 10,
+          "bbox": [
+            428,
+            629,
+            505,
+            655
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            358,
+            406,
+            422,
+            423
+          ]
+        },
+        {
+          "ref": "#/texts/269",
+          "page_no": 10,
+          "bbox": [
+            428,
+            661,
+            510,
+            677
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            358,
+            427,
+            427,
+            438
+          ]
+        },
+        {
+          "ref": "#/texts/270",
+          "page_no": 10,
+          "bbox": [
+            428,
+            683,
+            506,
+            700
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            358,
+            441,
+            423,
+            453
+          ]
+        },
+        {
+          "ref": "#/texts/271",
+          "page_no": 10,
+          "bbox": [
+            428,
+            706,
+            506,
+            732
+          ],
+          "page_width": 612,
+          "page_height": 792,
+          "dclg_location": [
+            358,
+            456,
+            423,
+            473
+          ]
+        }
+      ],
+      "headings": [
+        "EUROPE"
+      ],
+      "token_count": 207,
+      "text_hash": "818bdc8c529785b3",
+      "char_length": 476,
+      "text": "EUROPE\n<text>Netherlands - Drunen Tel: 31-416-690399 Fax: 31-416-690340</text>\n<text>Norway - Trondheim Tel: 47-7289-7561</text>\n<text>Poland - Warsaw Tel: 48-22-3325737</text>\n<text>Romania - Bucharest Tel: 40-21-407-87-50</text>\n<text>Spain - Madrid Tel: 34-91-708-08-90 Fax: 34-91-708-08-91</text>\n<text>Sweden - Gothenberg Tel: 46-31-704-60-40</text>\n<text>Sweden - Stockholm Tel: 46-8-5090-4654</text>\n<text>UK - Wokingham Tel: 44-118-921-5800 Fax: 44-118-921-5820</text>",
+      "resplit_of": null
+    }
+  },
+  "nodes": {
+    "#unkeyed0": {
+      "identity_key": "#unkeyed0",
+      "catalog_path": "",
+      "node_type": "SPISpecDocument",
+      "ids": {},
+      "anchors": [
+        {
+          "document_id": "",
+          "chunk_id": 0,
+          "kind": "observed",
+          "span": null
+        }
+      ],
+      "merged_from": [],
+      "synthetic": false,
+      "dropped": false,
+      "fill_batches": [],
+      "notes": [
+        "identity:unkeyed",
+        "scope:document"
+      ]
+    },
+    "registers[]#unkeyed1": {
+      "identity_key": "registers[]#unkeyed1",
+      "catalog_path": "registers[]",
+      "node_type": "Register",
+      "ids": {},
+      "anchors": [
+        {
+          "document_id": "",
+          "chunk_id": 1,
+          "kind": "observed",
+          "span": null
+        }
+      ],
+      "merged_from": [],
+      "synthetic": false,
+      "dropped": false,
+      "fill_batches": [],
+      "notes": [
+        "identity:unkeyed"
+      ]
+    },
+    "registers[].fields[]#unkeyed2": {
+      "identity_key": "registers[].fields[]#unkeyed2",
+      "catalog_path": "registers[].fields[]",
+      "node_type": "BitField",
+      "ids": {},
+      "anchors": [
+        {
+          "document_id": "",
+          "chunk_id": 2,
+          "kind": "observed",
+          "span": null
+        }
+      ],
+      "merged_from": [],
+      "synthetic": false,
+      "dropped": false,
+      "fill_batches": [],
+      "notes": [
+        "identity:unkeyed"
+      ]
+    },
+    "spi_modes[]#unkeyed3": {
+      "identity_key": "spi_modes[]#unkeyed3",
+      "catalog_path": "spi_modes[]",
+      "node_type": "SPIMode",
+      "ids": {},
+      "anchors": [
+        {
+          "document_id": "",
+          "chunk_id": 3,
+          "kind": "observed",
+          "span": null
+        }
+      ],
+      "merged_from": [],
+      "synthetic": false,
+      "dropped": false,
+      "fill_batches": [],
+      "notes": [
+        "identity:unkeyed"
+      ]
+    },
+    "frame_formats[]#unkeyed4": {
+      "identity_key": "frame_formats[]#unkeyed4",
+      "catalog_path": "frame_formats[]",
+      "node_type": "FrameFormat",
+      "ids": {},
+      "anchors": [
+        {
+          "document_id": "",
+          "chunk_id": 4,
+          "kind": "observed",
+          "span": null
+        }
+      ],
+      "merged_from": [],
+      "synthetic": false,
+      "dropped": false,
+      "fill_batches": [],
+      "notes": [
+        "identity:unkeyed"
+      ]
+    },
+    "registers[]#unkeyed5": {
+      "identity_key": "registers[]#unkeyed5",
+      "catalog_path": "registers[]",
+      "node_type": "Register",
+      "ids": {},
+      "anchors": [
+        {
+          "document_id": "",
+          "chunk_id": 9,
+          "kind": "observed",
+          "span": null
+        }
+      ],
+      "merged_from": [],
+      "synthetic": false,
+      "dropped": false,
+      "fill_batches": [],
+      "notes": [
+        "identity:unkeyed"
+      ]
+    },
+    "registers[].fields[]#unkeyed6": {
+      "identity_key": "registers[].fields[]#unkeyed6",
+      "catalog_path": "registers[].fields[]",
+      "node_type": "BitField",
+      "ids": {},
+      "anchors": [
+        {
+          "document_id": "",
+          "chunk_id": 9,
+          "kind": "observed",
+          "span": null
+        }
+      ],
+      "merged_from": [],
+      "synthetic": false,
+      "dropped": false,
+      "fill_batches": [],
+      "notes": [
+        "identity:unkeyed"
+      ]
+    },
+    "registers[].fields[]|LSBF=lsbfirst": {
+      "identity_key": "registers[].fields[]|LSBF=lsbfirst",
+      "catalog_path": "registers[].fields[]",
+      "node_type": "BitField",
+      "ids": {
+        "LSBF": "LSB First"
+      },
+      "anchors": [
+        {
+          "document_id": "",
+          "chunk_id": 9,
+          "kind": "observed",
+          "span": null
+        },
+        {
+          "document_id": "",
+          "chunk_id": 20,
+          "kind": "reconciled",
+          "span": null
+        }
+      ],
+      "merged_from": [
+        "registers[].fields[]|LSBF=lsbf"
+      ],
+      "synthetic": false,
+      "dropped": false,
+      "fill_batches": [
+        0
+      ],
+      "notes": []
+    },
+    "registers[].fields[]|SDIP=sdipolarity": {
+      "identity_key": "registers[].fields[]|SDIP=sdipolarity",
+      "catalog_path": "registers[].fields[]",
+      "node_type": "BitField",
+      "ids": {
+        "SDIP": "SDI Polarity"
+      },
+      "anchors": [
+        {
+          "document_id": "",
+          "chunk_id": 10,
+          "kind": "observed",
+          "span": null
+        }
+      ],
+      "merged_from": [],
+      "synthetic": false,
+      "dropped": false,
+      "fill_batches": [
+        1
+      ],
+      "notes": []
+    },
+    "registers[].fields[]|SDOP=sdopolarity": {
+      "identity_key": "registers[].fields[]|SDOP=sdopolarity",
+      "catalog_path": "registers[].fields[]",
+      "node_type": "BitField",
+      "ids": {
+        "SDOP": "SDO Polarity"
+      },
+      "anchors": [
+        {
+          "document_id": "",
+          "chunk_id": 10,
+          "kind": "observed",
+          "span": null
+        }
+      ],
+      "merged_from": [],
+      "synthetic": false,
+      "dropped": false,
+      "fill_batches": [
+        1
+      ],
+      "notes": []
+    },
+    "registers[].fields[]|SSP=sspolarity": {
+      "identity_key": "registers[].fields[]|SSP=sspolarity",
+      "catalog_path": "registers[].fields[]",
+      "node_type": "BitField",
+      "ids": {
+        "SSP": "SS Polarity"
+      },
+      "anchors": [
+        {
+          "document_id": "",
+          "chunk_id": 10,
+          "kind": "observed",
+          "span": null
+        }
+      ],
+      "merged_from": [],
+      "synthetic": false,
+      "dropped": false,
+      "fill_batches": [
+        1
+      ],
+      "notes": []
+    },
+    "spi_modes[]#unkeyed7": {
+      "identity_key": "spi_modes[]#unkeyed7",
+      "catalog_path": "spi_modes[]",
+      "node_type": "SPIMode",
+      "ids": {},
+      "anchors": [
+        {
+          "document_id": "",
+          "chunk_id": 11,
+          "kind": "observed",
+          "span": null
+        }
+      ],
+      "merged_from": [],
+      "synthetic": false,
+      "dropped": false,
+      "fill_batches": [],
+      "notes": [
+        "identity:unkeyed"
+      ]
+    },
+    "spi_modes[]|Full Duplex (Legacy)=fullduplexmode": {
+      "identity_key": "spi_modes[]|Full Duplex (Legacy)=fullduplexmode",
+      "catalog_path": "spi_modes[]",
+      "node_type": "SPIMode",
+      "ids": {
+        "Full Duplex (Legacy)": "Full Duplex Mode"
+      },
+      "anchors": [
+        {
+          "document_id": "",
+          "chunk_id": 12,
+          "kind": "observed",
+          "span": null
+        }
+      ],
+      "merged_from": [],
+      "synthetic": false,
+      "dropped": false,
+      "fill_batches": [
+        0
+      ],
+      "notes": []
+    },
+    "spi_modes[]|Receive Only=receiveonlymode": {
+      "identity_key": "spi_modes[]|Receive Only=receiveonlymode",
+      "catalog_path": "spi_modes[]",
+      "node_type": "SPIMode",
+      "ids": {
+        "Receive Only": "Receive Only Mode"
+      },
+      "anchors": [
+        {
+          "document_id": "",
+          "chunk_id": 12,
+          "kind": "observed",
+          "span": null
+        }
+      ],
+      "merged_from": [],
+      "synthetic": false,
+      "dropped": false,
+      "fill_batches": [
+        1
+      ],
+      "notes": []
+    },
+    "spi_modes[]|Transmit Only=transmitonlymode": {
+      "identity_key": "spi_modes[]|Transmit Only=transmitonlymode",
+      "catalog_path": "spi_modes[]",
+      "node_type": "SPIMode",
+      "ids": {
+        "Transmit Only": "Transmit Only Mode"
+      },
+      "anchors": [
+        {
+          "document_id": "",
+          "chunk_id": 12,
+          "kind": "observed",
+          "span": null
+        }
+      ],
+      "merged_from": [],
+      "synthetic": false,
+      "dropped": false,
+      "fill_batches": [
+        1
+      ],
+      "notes": []
+    },
+    "spi_modes[]|Transfer Off=transferoffmode": {
+      "identity_key": "spi_modes[]|Transfer Off=transferoffmode",
+      "catalog_path": "spi_modes[]",
+      "node_type": "SPIMode",
+      "ids": {
+        "Transfer Off": "Transfer Off Mode"
+      },
+      "anchors": [
+        {
+          "document_id": "",
+          "chunk_id": 12,
+          "kind": "observed",
+          "span": null
+        }
+      ],
+      "merged_from": [],
+      "synthetic": false,
+      "dropped": false,
+      "fill_batches": [
+        1
+      ],
+      "notes": []
+    },
+    "frame_formats[]#unkeyed8": {
+      "identity_key": "frame_formats[]#unkeyed8",
+      "catalog_path": "frame_formats[]",
+      "node_type": "FrameFormat",
+      "ids": {},
+      "anchors": [
+        {
+          "document_id": "",
+          "chunk_id": 15,
+          "kind": "observed",
+          "span": null
+        }
+      ],
+      "merged_from": [],
+      "synthetic": false,
+      "dropped": false,
+      "fill_batches": [],
+      "notes": [
+        "identity:unkeyed"
+      ]
+    },
+    "registers[]#unkeyed9": {
+      "identity_key": "registers[]#unkeyed9",
+      "catalog_path": "registers[]",
+      "node_type": "Register",
+      "ids": {},
+      "anchors": [
+        {
+          "document_id": "",
+          "chunk_id": 16,
+          "kind": "observed",
+          "span": null
+        }
+      ],
+      "merged_from": [],
+      "synthetic": false,
+      "dropped": false,
+      "fill_batches": [],
+      "notes": [
+        "identity:unkeyed"
+      ]
+    },
+    "registers[].fields[]|TXR=txr": {
+      "identity_key": "registers[].fields[]|TXR=txr",
+      "catalog_path": "registers[].fields[]",
+      "node_type": "BitField",
+      "ids": {
+        "TXR": "TXR"
+      },
+      "anchors": [
+        {
+          "document_id": "",
+          "chunk_id": 16,
+          "kind": "observed",
+          "span": null
+        }
+      ],
+      "merged_from": [],
+      "synthetic": false,
+      "dropped": false,
+      "fill_batches": [
+        2
+      ],
+      "notes": []
+    },
+    "registers[].fields[]|RXR=rxr": {
+      "identity_key": "registers[].fields[]|RXR=rxr",
+      "catalog_path": "registers[].fields[]",
+      "node_type": "BitField",
+      "ids": {
+        "RXR": "RXR"
+      },
+      "anchors": [
+        {
+          "document_id": "",
+          "chunk_id": 16,
+          "kind": "observed",
+          "span": null
+        }
+      ],
+      "merged_from": [],
+      "synthetic": false,
+      "dropped": false,
+      "fill_batches": [
+        2
+      ],
+      "notes": []
+    },
+    "registers[].fields[]|SSP=ssp": {
+      "identity_key": "registers[].fields[]|SSP=ssp",
+      "catalog_path": "registers[].fields[]",
+      "node_type": "BitField",
+      "ids": {
+        "SSP": "SSP"
+      },
+      "anchors": [
+        {
+          "document_id": "",
+          "chunk_id": 17,
+          "kind": "observed",
+          "span": null
+        }
+      ],
+      "merged_from": [],
+      "synthetic": false,
+      "dropped": false,
+      "fill_batches": [
+        2
+      ],
+      "notes": []
+    },
+    "registers[].fields[]|CKP=ckp": {
+      "identity_key": "registers[].fields[]|CKP=ckp",
+      "catalog_path": "registers[].fields[]",
+      "node_type": "BitField",
+      "ids": {
+        "CKP": "CKP"
+      },
+      "anchors": [
+        {
+          "document_id": "",
+          "chunk_id": 18,
+          "kind": "observed",
+          "span": null
+        }
+      ],
+      "merged_from": [],
+      "synthetic": false,
+      "dropped": false,
+      "fill_batches": [
+        3
+      ],
+      "notes": []
+    },
+    "registers[].fields[]|CEKE=ceke": {
+      "identity_key": "registers[].fields[]|CEKE=ceke",
+      "catalog_path": "registers[].fields[]",
+      "node_type": "BitField",
+      "ids": {
+        "CEKE": "CEKE"
+      },
+      "anchors": [
+        {
+          "document_id": "",
+          "chunk_id": 18,
+          "kind": "observed",
+          "span": null
+        }
+      ],
+      "merged_from": [],
+      "synthetic": false,
+      "dropped": false,
+      "fill_batches": [
+        3
+      ],
+      "notes": []
+    },
+    "registers[].fields[]|BMODE=bmode": {
+      "identity_key": "registers[].fields[]|BMODE=bmode",
+      "catalog_path": "registers[].fields[]",
+      "node_type": "BitField",
+      "ids": {
+        "BMODE": "BMODE"
+      },
+      "anchors": [
+        {
+          "document_id": "",
+          "chunk_id": 19,
+          "kind": "observed",
+          "span": null
+        }
+      ],
+      "merged_from": [],
+      "synthetic": false,
+      "dropped": false,
+      "fill_batches": [
+        3
+      ],
+      "notes": []
+    },
+    "registers[].fields[]|TCZIF=tczif": {
+      "identity_key": "registers[].fields[]|TCZIF=tczif",
+      "catalog_path": "registers[].fields[]",
+      "node_type": "BitField",
+      "ids": {
+        "TCZIF": "TCZIF"
+      },
+      "anchors": [
+        {
+          "document_id": "",
+          "chunk_id": 19,
+          "kind": "observed",
+          "span": null
+        }
+      ],
+      "merged_from": [],
+      "synthetic": false,
+      "dropped": false,
+      "fill_batches": [
+        4
+      ],
+      "notes": []
+    },
+    "registers[].fields[]|SPIxTCTH/L=spixtcthl": {
+      "identity_key": "registers[].fields[]|SPIxTCTH/L=spixtcthl",
+      "catalog_path": "registers[].fields[]",
+      "node_type": "BitField",
+      "ids": {
+        "SPIxTCTH/L": "SPIxTCTH/L"
+      },
+      "anchors": [
+        {
+          "document_id": "",
+          "chunk_id": 20,
+          "kind": "observed",
+          "span": null
+        }
+      ],
+      "merged_from": [],
+      "synthetic": false,
+      "dropped": false,
+      "fill_batches": [
+        4
+      ],
+      "notes": []
+    },
+    "registers[].fields[]|SPIxTWIDTH=spixtwidth": {
+      "identity_key": "registers[].fields[]|SPIxTWIDTH=spixtwidth",
+      "catalog_path": "registers[].fields[]",
+      "node_type": "BitField",
+      "ids": {
+        "SPIxTWIDTH": "SPIxTWIDTH"
+      },
+      "anchors": [
+        {
+          "document_id": "",
+          "chunk_id": 21,
+          "kind": "observed",
+          "span": null
+        }
+      ],
+      "merged_from": [],
+      "synthetic": false,
+      "dropped": false,
+      "fill_batches": [
+        4
+      ],
+      "notes": []
+    },
+    "registers[].fields[]|SPIxRIF/SPIxRIE=spixrifspixrie": {
+      "identity_key": "registers[].fields[]|SPIxRIF/SPIxRIE=spixrifspixrie",
+      "catalog_path": "registers[].fields[]",
+      "node_type": "BitField",
+      "ids": {
+        "SPIxRIF/SPIxRIE": "SPIxRIF/SPIxRIE"
+      },
+      "anchors": [
+        {
+          "document_id": "",
+          "chunk_id": 24,
+          "kind": "observed",
+          "span": null
+        }
+      ],
+      "merged_from": [],
+      "synthetic": false,
+      "dropped": false,
+      "fill_batches": [
+        5
+      ],
+      "notes": []
+    },
+    "registers[]|SPI Transmitter Data Interrupt=spixtifspixtie": {
+      "identity_key": "registers[]|SPI Transmitter Data Interrupt=spixtifspixtie",
+      "catalog_path": "registers[]",
+      "node_type": "Register",
+      "ids": {
+        "SPI Transmitter Data Interrupt": "SPIxTIF/ SPIxTIE"
+      },
+      "anchors": [
+        {
+          "document_id": "",
+          "chunk_id": 25,
+          "kind": "observed",
+          "span": null
+        }
+      ],
+      "merged_from": [],
+      "synthetic": false,
+      "dropped": false,
+      "fill_batches": [
+        1
+      ],
+      "notes": []
+    },
+    "registers[]|Shift Register Empty Interrupt=srmtifsrmtie": {
+      "identity_key": "registers[]|Shift Register Empty Interrupt=srmtifsrmtie",
+      "catalog_path": "registers[]",
+      "node_type": "Register",
+      "ids": {
+        "Shift Register Empty Interrupt": "SRMTIF/ SRMTIE"
+      },
+      "anchors": [
+        {
+          "document_id": "",
+          "chunk_id": 26,
+          "kind": "observed",
+          "span": null
+        }
+      ],
+      "merged_from": [],
+      "synthetic": false,
+      "dropped": false,
+      "fill_batches": [
+        1
+      ],
+      "notes": []
+    },
+    "registers[]|Transfer Counter is Zero Interrupt=tcziftczie": {
+      "identity_key": "registers[]|Transfer Counter is Zero Interrupt=tcziftczie",
+      "catalog_path": "registers[]",
+      "node_type": "Register",
+      "ids": {
+        "Transfer Counter is Zero Interrupt": "TCZIF/ TCZIE"
+      },
+      "anchors": [
+        {
+          "document_id": "",
+          "chunk_id": 27,
+          "kind": "observed",
+          "span": null
+        }
+      ],
+      "merged_from": [],
+      "synthetic": false,
+      "dropped": false,
+      "fill_batches": [
+        1
+      ],
+      "notes": []
+    },
+    "registers[]|Start of Slave Select and End of Slave Select Interrupts=sosifsosieandeosifeosie": {
+      "identity_key": "registers[]|Start of Slave Select and End of Slave Select Interrupts=sosifsosieandeosifeosie",
+      "catalog_path": "registers[]",
+      "node_type": "Register",
+      "ids": {
+        "Start of Slave Select and End of Slave Select Interrupts": "SOSIF/SOSIE and EOSIF/EOSIE"
+      },
+      "anchors": [
+        {
+          "document_id": "",
+          "chunk_id": 28,
+          "kind": "observed",
+          "span": null
+        }
+      ],
+      "merged_from": [],
+      "synthetic": false,
+      "dropped": false,
+      "fill_batches": [
+        2
+      ],
+      "notes": []
+    },
+    "registers[]|Receiver Overflow and Transmitter Underflow Interrupts=rxoifrxoieandtxuiftxuie": {
+      "identity_key": "registers[]|Receiver Overflow and Transmitter Underflow Interrupts=rxoifrxoieandtxuiftxuie",
+      "catalog_path": "registers[]",
+      "node_type": "Register",
+      "ids": {
+        "Receiver Overflow and Transmitter Underflow Interrupts": "RXOIF/RXOIE and TXUIF/TXUIE"
+      },
+      "anchors": [
+        {
+          "document_id": "",
+          "chunk_id": 29,
+          "kind": "observed",
+          "span": null
+        }
+      ],
+      "merged_from": [],
+      "synthetic": false,
+      "dropped": false,
+      "fill_batches": [
+        2
+      ],
+      "notes": []
+    },
+    "registers[]#unkeyed10": {
+      "identity_key": "registers[]#unkeyed10",
+      "catalog_path": "registers[]",
+      "node_type": "Register",
+      "ids": {},
+      "anchors": [
+        {
+          "document_id": "",
+          "chunk_id": 35,
+          "kind": "observed",
+          "span": null
+        }
+      ],
+      "merged_from": [],
+      "synthetic": false,
+      "dropped": false,
+      "fill_batches": [],
+      "notes": [
+        "identity:unkeyed"
+      ]
+    },
+    "registers[].fields[]#unkeyed11": {
+      "identity_key": "registers[].fields[]#unkeyed11",
+      "catalog_path": "registers[].fields[]",
+      "node_type": "BitField",
+      "ids": {},
+      "anchors": [
+        {
+          "document_id": "",
+          "chunk_id": 35,
+          "kind": "observed",
+          "span": null
+        }
+      ],
+      "merged_from": [],
+      "synthetic": false,
+      "dropped": false,
+      "fill_batches": [],
+      "notes": [
+        "identity:unkeyed"
+      ]
+    },
+    "timing_parameters[]#unkeyed12": {
+      "identity_key": "timing_parameters[]#unkeyed12",
+      "catalog_path": "timing_parameters[]",
+      "node_type": "TimingParameter",
+      "ids": {},
+      "anchors": [
+        {
+          "document_id": "",
+          "chunk_id": 35,
+          "kind": "observed",
+          "span": null
+        }
+      ],
+      "merged_from": [],
+      "synthetic": false,
+      "dropped": false,
+      "fill_batches": [],
+      "notes": [
+        "identity:unkeyed"
+      ]
+    },
+    "state_machines[]#unkeyed13": {
+      "identity_key": "state_machines[]#unkeyed13",
+      "catalog_path": "state_machines[]",
+      "node_type": "StateMachine",
+      "ids": {},
+      "anchors": [
+        {
+          "document_id": "",
+          "chunk_id": 35,
+          "kind": "observed",
+          "span": null
+        }
+      ],
+      "merged_from": [],
+      "synthetic": false,
+      "dropped": false,
+      "fill_batches": [],
+      "notes": [
+        "identity:unkeyed"
+      ]
+    },
+    "state_machines[].states[]#unkeyed14": {
+      "identity_key": "state_machines[].states[]#unkeyed14",
+      "catalog_path": "state_machines[].states[]",
+      "node_type": "StateMachineState",
+      "ids": {},
+      "anchors": [
+        {
+          "document_id": "",
+          "chunk_id": 35,
+          "kind": "observed",
+          "span": null
+        }
+      ],
+      "merged_from": [],
+      "synthetic": false,
+      "dropped": false,
+      "fill_batches": [],
+      "notes": [
+        "identity:unkeyed"
+      ]
+    },
+    "state_machines[].transitions[]#unkeyed15": {
+      "identity_key": "state_machines[].transitions[]#unkeyed15",
+      "catalog_path": "state_machines[].transitions[]",
+      "node_type": "StateTransition",
+      "ids": {},
+      "anchors": [
+        {
+          "document_id": "",
+          "chunk_id": 35,
+          "kind": "observed",
+          "span": null
+        }
+      ],
+      "merged_from": [],
+      "synthetic": false,
+      "dropped": false,
+      "fill_batches": [],
+      "notes": [
+        "identity:unkeyed"
+      ]
+    },
+    "spi_modes[]#unkeyed16": {
+      "identity_key": "spi_modes[]#unkeyed16",
+      "catalog_path": "spi_modes[]",
+      "node_type": "SPIMode",
+      "ids": {},
+      "anchors": [
+        {
+          "document_id": "",
+          "chunk_id": 35,
+          "kind": "observed",
+          "span": null
+        }
+      ],
+      "merged_from": [],
+      "synthetic": false,
+      "dropped": false,
+      "fill_batches": [],
+      "notes": [
+        "identity:unkeyed"
+      ]
+    },
+    "frame_formats[]#unkeyed17": {
+      "identity_key": "frame_formats[]#unkeyed17",
+      "catalog_path": "frame_formats[]",
+      "node_type": "FrameFormat",
+      "ids": {},
+      "anchors": [
+        {
+          "document_id": "",
+          "chunk_id": 35,
+          "kind": "observed",
+          "span": null
+        }
+      ],
+      "merged_from": [],
+      "synthetic": false,
+      "dropped": false,
+      "fill_batches": [],
+      "notes": [
+        "identity:unkeyed"
+      ]
+    },
+    "registers[]#unkeyed18": {
+      "identity_key": "registers[]#unkeyed18",
+      "catalog_path": "registers[]",
+      "node_type": "Register",
+      "ids": {},
+      "anchors": [
+        {
+          "document_id": "",
+          "chunk_id": 36,
+          "kind": "observed",
+          "span": null
+        }
+      ],
+      "merged_from": [],
+      "synthetic": false,
+      "dropped": false,
+      "fill_batches": [],
+      "notes": [
+        "identity:unkeyed"
+      ]
+    },
+    "registers[].fields[]#unkeyed19": {
+      "identity_key": "registers[].fields[]#unkeyed19",
+      "catalog_path": "registers[].fields[]",
+      "node_type": "BitField",
+      "ids": {},
+      "anchors": [
+        {
+          "document_id": "",
+          "chunk_id": 36,
+          "kind": "observed",
+          "span": null
+        }
+      ],
+      "merged_from": [],
+      "synthetic": false,
+      "dropped": false,
+      "fill_batches": [],
+      "notes": [
+        "identity:unkeyed"
+      ]
+    },
+    "registers[]#unkeyed20": {
+      "identity_key": "registers[]#unkeyed20",
+      "catalog_path": "registers[]",
+      "node_type": "Register",
+      "ids": {},
+      "anchors": [
+        {
+          "document_id": "",
+          "chunk_id": 37,
+          "kind": "observed",
+          "span": null
+        }
+      ],
+      "merged_from": [],
+      "synthetic": false,
+      "dropped": false,
+      "fill_batches": [],
+      "notes": [
+        "identity:unkeyed"
+      ]
+    },
+    "registers[].fields[]#unkeyed21": {
+      "identity_key": "registers[].fields[]#unkeyed21",
+      "catalog_path": "registers[].fields[]",
+      "node_type": "BitField",
+      "ids": {},
+      "anchors": [
+        {
+          "document_id": "",
+          "chunk_id": 37,
+          "kind": "observed",
+          "span": null
+        }
+      ],
+      "merged_from": [],
+      "synthetic": false,
+      "dropped": false,
+      "fill_batches": [],
+      "notes": [
+        "identity:unkeyed"
+      ]
+    },
+    "registers[]#unkeyed22": {
+      "identity_key": "registers[]#unkeyed22",
+      "catalog_path": "registers[]",
+      "node_type": "Register",
+      "ids": {},
+      "anchors": [
+        {
+          "document_id": "",
+          "chunk_id": 38,
+          "kind": "observed",
+          "span": null
+        }
+      ],
+      "merged_from": [],
+      "synthetic": false,
+      "dropped": false,
+      "fill_batches": [],
+      "notes": [
+        "identity:unkeyed"
+      ]
+    },
+    "registers[].fields[]#unkeyed23": {
+      "identity_key": "registers[].fields[]#unkeyed23",
+      "catalog_path": "registers[].fields[]",
+      "node_type": "BitField",
+      "ids": {},
+      "anchors": [
+        {
+          "document_id": "",
+          "chunk_id": 38,
+          "kind": "observed",
+          "span": null
+        }
+      ],
+      "merged_from": [],
+      "synthetic": false,
+      "dropped": false,
+      "fill_batches": [],
+      "notes": [
+        "identity:unkeyed"
+      ]
+    },
+    "registers[]#unkeyed24": {
+      "identity_key": "registers[]#unkeyed24",
+      "catalog_path": "registers[]",
+      "node_type": "Register",
+      "ids": {},
+      "anchors": [
+        {
+          "document_id": "",
+          "chunk_id": 39,
+          "kind": "observed",
+          "span": null
+        }
+      ],
+      "merged_from": [],
+      "synthetic": false,
+      "dropped": false,
+      "fill_batches": [],
+      "notes": [
+        "identity:unkeyed"
+      ]
+    },
+    "registers[].fields[]#unkeyed25": {
+      "identity_key": "registers[].fields[]#unkeyed25",
+      "catalog_path": "registers[].fields[]",
+      "node_type": "BitField",
+      "ids": {},
+      "anchors": [
+        {
+          "document_id": "",
+          "chunk_id": 39,
+          "kind": "observed",
+          "span": null
+        }
+      ],
+      "merged_from": [],
+      "synthetic": false,
+      "dropped": false,
+      "fill_batches": [],
+      "notes": [
+        "identity:unkeyed"
+      ]
+    },
+    "registers[]#unkeyed26": {
+      "identity_key": "registers[]#unkeyed26",
+      "catalog_path": "registers[]",
+      "node_type": "Register",
+      "ids": {},
+      "anchors": [
+        {
+          "document_id": "",
+          "chunk_id": 40,
+          "kind": "observed",
+          "span": null
+        }
+      ],
+      "merged_from": [],
+      "synthetic": false,
+      "dropped": false,
+      "fill_batches": [],
+      "notes": [
+        "identity:unkeyed"
+      ]
+    },
+    "registers[].fields[]#unkeyed27": {
+      "identity_key": "registers[].fields[]#unkeyed27",
+      "catalog_path": "registers[].fields[]",
+      "node_type": "BitField",
+      "ids": {},
+      "anchors": [
+        {
+          "document_id": "",
+          "chunk_id": 40,
+          "kind": "observed",
+          "span": null
+        },
+        {
+          "document_id": "",
+          "chunk_id": 41,
+          "kind": "observed",
+          "span": null
+        },
+        {
+          "document_id": "",
+          "chunk_id": 42,
+          "kind": "observed",
+          "span": null
+        },
+        {
+          "document_id": "",
+          "chunk_id": 43,
+          "kind": "observed",
+          "span": null
+        },
+        {
+          "document_id": "",
+          "chunk_id": 44,
+          "kind": "observed",
+          "span": null
+        }
+      ],
+      "merged_from": [],
+      "synthetic": false,
+      "dropped": false,
+      "fill_batches": [],
+      "notes": [
+        "identity:unkeyed"
+      ]
+    },
+    "timing_parameters[]#unkeyed28": {
+      "identity_key": "timing_parameters[]#unkeyed28",
+      "catalog_path": "timing_parameters[]",
+      "node_type": "TimingParameter",
+      "ids": {},
+      "anchors": [
+        {
+          "document_id": "",
+          "chunk_id": 40,
+          "kind": "observed",
+          "span": null
+        }
+      ],
+      "merged_from": [],
+      "synthetic": false,
+      "dropped": false,
+      "fill_batches": [],
+      "notes": [
+        "identity:unkeyed"
+      ]
+    },
+    "state_machines[]#unkeyed29": {
+      "identity_key": "state_machines[]#unkeyed29",
+      "catalog_path": "state_machines[]",
+      "node_type": "StateMachine",
+      "ids": {},
+      "anchors": [
+        {
+          "document_id": "",
+          "chunk_id": 40,
+          "kind": "observed",
+          "span": null
+        }
+      ],
+      "merged_from": [],
+      "synthetic": false,
+      "dropped": false,
+      "fill_batches": [],
+      "notes": [
+        "identity:unkeyed"
+      ]
+    },
+    "state_machines[].states[]#unkeyed30": {
+      "identity_key": "state_machines[].states[]#unkeyed30",
+      "catalog_path": "state_machines[].states[]",
+      "node_type": "StateMachineState",
+      "ids": {},
+      "anchors": [
+        {
+          "document_id": "",
+          "chunk_id": 40,
+          "kind": "observed",
+          "span": null
+        },
+        {
+          "document_id": "",
+          "chunk_id": 41,
+          "kind": "observed",
+          "span": null
+        },
+        {
+          "document_id": "",
+          "chunk_id": 42,
+          "kind": "observed",
+          "span": null
+        },
+        {
+          "document_id": "",
+          "chunk_id": 43,
+          "kind": "observed",
+          "span": null
+        },
+        {
+          "document_id": "",
+          "chunk_id": 44,
+          "kind": "observed",
+          "span": null
+        }
+      ],
+      "merged_from": [],
+      "synthetic": false,
+      "dropped": false,
+      "fill_batches": [],
+      "notes": [
+        "identity:unkeyed"
+      ]
+    },
+    "state_machines[].transitions[]#unkeyed31": {
+      "identity_key": "state_machines[].transitions[]#unkeyed31",
+      "catalog_path": "state_machines[].transitions[]",
+      "node_type": "StateTransition",
+      "ids": {},
+      "anchors": [
+        {
+          "document_id": "",
+          "chunk_id": 40,
+          "kind": "observed",
+          "span": null
+        },
+        {
+          "document_id": "",
+          "chunk_id": 41,
+          "kind": "observed",
+          "span": null
+        },
+        {
+          "document_id": "",
+          "chunk_id": 42,
+          "kind": "observed",
+          "span": null
+        },
+        {
+          "document_id": "",
+          "chunk_id": 43,
+          "kind": "observed",
+          "span": null
+        },
+        {
+          "document_id": "",
+          "chunk_id": 44,
+          "kind": "observed",
+          "span": null
+        }
+      ],
+      "merged_from": [],
+      "synthetic": false,
+      "dropped": false,
+      "fill_batches": [],
+      "notes": [
+        "identity:unkeyed"
+      ]
+    },
+    "spi_modes[]#unkeyed32": {
+      "identity_key": "spi_modes[]#unkeyed32",
+      "catalog_path": "spi_modes[]",
+      "node_type": "SPIMode",
+      "ids": {},
+      "anchors": [
+        {
+          "document_id": "",
+          "chunk_id": 40,
+          "kind": "observed",
+          "span": null
+        }
+      ],
+      "merged_from": [],
+      "synthetic": false,
+      "dropped": false,
+      "fill_batches": [],
+      "notes": [
+        "identity:unkeyed"
+      ]
+    },
+    "frame_formats[]#unkeyed33": {
+      "identity_key": "frame_formats[]#unkeyed33",
+      "catalog_path": "frame_formats[]",
+      "node_type": "FrameFormat",
+      "ids": {},
+      "anchors": [
+        {
+          "document_id": "",
+          "chunk_id": 40,
+          "kind": "observed",
+          "span": null
+        }
+      ],
+      "merged_from": [],
+      "synthetic": false,
+      "dropped": false,
+      "fill_batches": [],
+      "notes": [
+        "identity:unkeyed"
+      ]
+    }
+  },
+  "bind_stats": {}
+}
