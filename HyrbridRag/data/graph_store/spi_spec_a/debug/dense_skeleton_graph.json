@@ -1,0 +1,1097 @@
+{
+  "nodes": [
+    {
+      "path": "",
+      "ids": {},
+      "parent": null,
+      "_emission_index": 0,
+      "_source_batch_indexes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "_source_chunk_ids": [
+        0
+      ],
+      "_emission_by_batch": {
+        "0": 0
+      }
+    },
+    {
+      "path": "registers[]",
+      "ids": {},
+      "parent": {
+        "path": "",
+        "ids": {}
+      },
+      "_emission_index": 1,
+      "_source_batch_indexes": [
+        0
+      ],
+      "_source_chunk_ids": [
+        1
+      ],
+      "_emission_by_batch": {
+        "0": 1
+      }
+    },
+    {
+      "path": "registers[].fields[]",
+      "ids": {},
+      "parent": {
+        "path": "registers[]",
+        "ids": {}
+      },
+      "_emission_index": 2,
+      "_source_batch_indexes": [
+        0
+      ],
+      "_source_chunk_ids": [
+        2
+      ],
+      "_emission_by_batch": {
+        "0": 2
+      }
+    },
+    {
+      "path": "spi_modes[]",
+      "ids": {},
+      "parent": {
+        "path": "",
+        "ids": {}
+      },
+      "_emission_index": 3,
+      "_source_batch_indexes": [
+        0
+      ],
+      "_source_chunk_ids": [
+        3
+      ],
+      "_emission_by_batch": {
+        "0": 3
+      }
+    },
+    {
+      "path": "frame_formats[]",
+      "ids": {},
+      "parent": {
+        "path": "",
+        "ids": {}
+      },
+      "_emission_index": 4,
+      "_source_batch_indexes": [
+        0
+      ],
+      "_source_chunk_ids": [
+        4
+      ],
+      "_emission_by_batch": {
+        "0": 4
+      }
+    },
+    {
+      "path": "registers[]",
+      "ids": {},
+      "parent": {
+        "path": "",
+        "ids": {}
+      },
+      "_emission_index": 1,
+      "_source_batch_indexes": [
+        1
+      ],
+      "_source_chunk_ids": [
+        9
+      ],
+      "_emission_by_batch": {
+        "1": 1
+      }
+    },
+    {
+      "path": "registers[].fields[]",
+      "ids": {},
+      "parent": {
+        "path": "registers[]",
+        "ids": {}
+      },
+      "_emission_index": 2,
+      "_source_batch_indexes": [
+        1
+      ],
+      "_source_chunk_ids": [
+        9
+      ],
+      "_emission_by_batch": {
+        "1": 2
+      }
+    },
+    {
+      "path": "registers[].fields[]",
+      "ids": {
+        "LSBF": "LSB First"
+      },
+      "parent": {
+        "path": "registers[]",
+        "ids": {}
+      },
+      "_emission_index": 3,
+      "_source_batch_indexes": [
+        1,
+        2
+      ],
+      "_source_chunk_ids": [
+        9
+      ],
+      "_emission_by_batch": {
+        "1": 3
+      },
+      "_reconciled_chunk_ids": [
+        20
+      ],
+      "_merged_from": [
+        "registers[].fields[]|LSBF=lsbf"
+      ]
+    },
+    {
+      "path": "registers[].fields[]",
+      "ids": {
+        "SDIP": "SDI Polarity"
+      },
+      "parent": {
+        "path": "registers[]",
+        "ids": {}
+      },
+      "_emission_index": 4,
+      "_source_batch_indexes": [
+        1
+      ],
+      "_source_chunk_ids": [
+        10
+      ],
+      "_emission_by_batch": {
+        "1": 4
+      }
+    },
+    {
+      "path": "registers[].fields[]",
+      "ids": {
+        "SDOP": "SDO Polarity"
+      },
+      "parent": {
+        "path": "registers[]",
+        "ids": {}
+      },
+      "_emission_index": 5,
+      "_source_batch_indexes": [
+        1
+      ],
+      "_source_chunk_ids": [
+        10
+      ],
+      "_emission_by_batch": {
+        "1": 5
+      }
+    },
+    {
+      "path": "registers[].fields[]",
+      "ids": {
+        "SSP": "SS Polarity"
+      },
+      "parent": {
+        "path": "registers[]",
+        "ids": {}
+      },
+      "_emission_index": 6,
+      "_source_batch_indexes": [
+        1
+      ],
+      "_source_chunk_ids": [
+        10
+      ],
+      "_emission_by_batch": {
+        "1": 6
+      }
+    },
+    {
+      "path": "spi_modes[]",
+      "ids": {},
+      "parent": {
+        "path": "",
+        "ids": {}
+      },
+      "_emission_index": 7,
+      "_source_batch_indexes": [
+        1
+      ],
+      "_source_chunk_ids": [
+        11
+      ],
+      "_emission_by_batch": {
+        "1": 7
+      }
+    },
+    {
+      "path": "spi_modes[]",
+      "ids": {
+        "Full Duplex (Legacy)": "Full Duplex Mode"
+      },
+      "parent": {
+        "path": "",
+        "ids": {}
+      },
+      "_emission_index": 8,
+      "_source_batch_indexes": [
+        1
+      ],
+      "_source_chunk_ids": [
+        12
+      ],
+      "_emission_by_batch": {
+        "1": 8
+      }
+    },
+    {
+      "path": "spi_modes[]",
+      "ids": {
+        "Receive Only": "Receive Only Mode"
+      },
+      "parent": {
+        "path": "",
+        "ids": {}
+      },
+      "_emission_index": 9,
+      "_source_batch_indexes": [
+        1
+      ],
+      "_source_chunk_ids": [
+        12
+      ],
+      "_emission_by_batch": {
+        "1": 9
+      }
+    },
+    {
+      "path": "spi_modes[]",
+      "ids": {
+        "Transmit Only": "Transmit Only Mode"
+      },
+      "parent": {
+        "path": "",
+        "ids": {}
+      },
+      "_emission_index": 10,
+      "_source_batch_indexes": [
+        1
+      ],
+      "_source_chunk_ids": [
+        12
+      ],
+      "_emission_by_batch": {
+        "1": 10
+      }
+    },
+    {
+      "path": "spi_modes[]",
+      "ids": {
+        "Transfer Off": "Transfer Off Mode"
+      },
+      "parent": {
+        "path": "",
+        "ids": {}
+      },
+      "_emission_index": 11,
+      "_source_batch_indexes": [
+        1
+      ],
+      "_source_chunk_ids": [
+        12
+      ],
+      "_emission_by_batch": {
+        "1": 11
+      }
+    },
+    {
+      "path": "frame_formats[]",
+      "ids": {},
+      "parent": {
+        "path": "",
+        "ids": {}
+      },
+      "_emission_index": 12,
+      "_source_batch_indexes": [
+        1
+      ],
+      "_source_chunk_ids": [
+        15
+      ],
+      "_emission_by_batch": {
+        "1": 12
+      }
+    },
+    {
+      "path": "registers[]",
+      "ids": {},
+      "parent": {
+        "path": "",
+        "ids": {}
+      },
+      "_emission_index": 1,
+      "_source_batch_indexes": [
+        2
+      ],
+      "_source_chunk_ids": [
+        16
+      ],
+      "_emission_by_batch": {
+        "2": 1
+      }
+    },
+    {
+      "path": "registers[].fields[]",
+      "ids": {
+        "TXR": "TXR"
+      },
+      "parent": {
+        "path": "registers[]",
+        "ids": {}
+      },
+      "_emission_index": 2,
+      "_source_batch_indexes": [
+        2
+      ],
+      "_source_chunk_ids": [
+        16
+      ],
+      "_emission_by_batch": {
+        "2": 2
+      }
+    },
+    {
+      "path": "registers[].fields[]",
+      "ids": {
+        "RXR": "RXR"
+      },
+      "parent": {
+        "path": "registers[]",
+        "ids": {}
+      },
+      "_emission_index": 3,
+      "_source_batch_indexes": [
+        2
+      ],
+      "_source_chunk_ids": [
+        16
+      ],
+      "_emission_by_batch": {
+        "2": 3
+      }
+    },
+    {
+      "path": "registers[].fields[]",
+      "ids": {
+        "SSP": "SSP"
+      },
+      "parent": {
+        "path": "registers[]",
+        "ids": {}
+      },
+      "_emission_index": 4,
+      "_source_batch_indexes": [
+        2
+      ],
+      "_source_chunk_ids": [
+        17
+      ],
+      "_emission_by_batch": {
+        "2": 4
+      }
+    },
+    {
+      "path": "registers[].fields[]",
+      "ids": {
+        "CKP": "CKP"
+      },
+      "parent": {
+        "path": "registers[]",
+        "ids": {}
+      },
+      "_emission_index": 5,
+      "_source_batch_indexes": [
+        2
+      ],
+      "_source_chunk_ids": [
+        18
+      ],
+      "_emission_by_batch": {
+        "2": 5
+      }
+    },
+    {
+      "path": "registers[].fields[]",
+      "ids": {
+        "CEKE": "CEKE"
+      },
+      "parent": {
+        "path": "registers[]",
+        "ids": {}
+      },
+      "_emission_index": 6,
+      "_source_batch_indexes": [
+        2
+      ],
+      "_source_chunk_ids": [
+        18
+      ],
+      "_emission_by_batch": {
+        "2": 6
+      }
+    },
+    {
+      "path": "registers[].fields[]",
+      "ids": {
+        "BMODE": "BMODE"
+      },
+      "parent": {
+        "path": "registers[]",
+        "ids": {}
+      },
+      "_emission_index": 7,
+      "_source_batch_indexes": [
+        2
+      ],
+      "_source_chunk_ids": [
+        19
+      ],
+      "_emission_by_batch": {
+        "2": 7
+      }
+    },
+    {
+      "path": "registers[].fields[]",
+      "ids": {
+        "TCZIF": "TCZIF"
+      },
+      "parent": {
+        "path": "registers[]",
+        "ids": {}
+      },
+      "_emission_index": 8,
+      "_source_batch_indexes": [
+        2
+      ],
+      "_source_chunk_ids": [
+        19
+      ],
+      "_emission_by_batch": {
+        "2": 8
+      }
+    },
+    {
+      "path": "registers[].fields[]",
+      "ids": {
+        "SPIxTCTH/L": "SPIxTCTH/L"
+      },
+      "parent": {
+        "path": "registers[]",
+        "ids": {}
+      },
+      "_emission_index": 10,
+      "_source_batch_indexes": [
+        2
+      ],
+      "_source_chunk_ids": [
+        20
+      ],
+      "_emission_by_batch": {
+        "2": 10
+      }
+    },
+    {
+      "path": "registers[].fields[]",
+      "ids": {
+        "SPIxTWIDTH": "SPIxTWIDTH"
+      },
+      "parent": {
+        "path": "registers[]",
+        "ids": {}
+      },
+      "_emission_index": 11,
+      "_source_batch_indexes": [
+        2
+      ],
+      "_source_chunk_ids": [
+        21
+      ],
+      "_emission_by_batch": {
+        "2": 11
+      }
+    },
+    {
+      "path": "registers[].fields[]",
+      "ids": {
+        "SPIxRIF/SPIxRIE": "SPIxRIF/SPIxRIE"
+      },
+      "parent": {
+        "path": "registers[]",
+        "ids": {}
+      },
+      "_emission_index": 12,
+      "_source_batch_indexes": [
+        2
+      ],
+      "_source_chunk_ids": [
+        24
+      ],
+      "_emission_by_batch": {
+        "2": 12
+      }
+    },
+    {
+      "path": "registers[]",
+      "ids": {
+        "SPI Transmitter Data Interrupt": "SPIxTIF/ SPIxTIE"
+      },
+      "parent": {
+        "path": "",
+        "ids": {}
+      },
+      "_emission_index": 1,
+      "_source_batch_indexes": [
+        3
+      ],
+      "_source_chunk_ids": [
+        25
+      ],
+      "_emission_by_batch": {
+        "3": 1
+      }
+    },
+    {
+      "path": "registers[]",
+      "ids": {
+        "Shift Register Empty Interrupt": "SRMTIF/ SRMTIE"
+      },
+      "parent": {
+        "path": "",
+        "ids": {}
+      },
+      "_emission_index": 2,
+      "_source_batch_indexes": [
+        3
+      ],
+      "_source_chunk_ids": [
+        26
+      ],
+      "_emission_by_batch": {
+        "3": 2
+      }
+    },
+    {
+      "path": "registers[]",
+      "ids": {
+        "Transfer Counter is Zero Interrupt": "TCZIF/ TCZIE"
+      },
+      "parent": {
+        "path": "",
+        "ids": {}
+      },
+      "_emission_index": 3,
+      "_source_batch_indexes": [
+        3
+      ],
+      "_source_chunk_ids": [
+        27
+      ],
+      "_emission_by_batch": {
+        "3": 3
+      }
+    },
+    {
+      "path": "registers[]",
+      "ids": {
+        "Start of Slave Select and End of Slave Select Interrupts": "SOSIF/SOSIE and EOSIF/EOSIE"
+      },
+      "parent": {
+        "path": "",
+        "ids": {}
+      },
+      "_emission_index": 4,
+      "_source_batch_indexes": [
+        3
+      ],
+      "_source_chunk_ids": [
+        28
+      ],
+      "_emission_by_batch": {
+        "3": 4
+      }
+    },
+    {
+      "path": "registers[]",
+      "ids": {
+        "Receiver Overflow and Transmitter Underflow Interrupts": "RXOIF/RXOIE and TXUIF/TXUIE"
+      },
+      "parent": {
+        "path": "",
+        "ids": {}
+      },
+      "_emission_index": 5,
+      "_source_batch_indexes": [
+        3
+      ],
+      "_source_chunk_ids": [
+        29
+      ],
+      "_emission_by_batch": {
+        "3": 5
+      }
+    },
+    {
+      "path": "registers[]",
+      "ids": {},
+      "parent": {
+        "path": "",
+        "ids": {}
+      },
+      "_emission_index": 1,
+      "_source_batch_indexes": [
+        4
+      ],
+      "_source_chunk_ids": [
+        35
+      ],
+      "_emission_by_batch": {
+        "4": 1
+      }
+    },
+    {
+      "path": "registers[].fields[]",
+      "ids": {},
+      "parent": {
+        "path": "registers[]",
+        "ids": {}
+      },
+      "_emission_index": 2,
+      "_source_batch_indexes": [
+        4
+      ],
+      "_source_chunk_ids": [
+        35
+      ],
+      "_emission_by_batch": {
+        "4": 2
+      }
+    },
+    {
+      "path": "timing_parameters[]",
+      "ids": {},
+      "parent": {
+        "path": "",
+        "ids": {}
+      },
+      "_emission_index": 3,
+      "_source_batch_indexes": [
+        4
+      ],
+      "_source_chunk_ids": [
+        35
+      ],
+      "_emission_by_batch": {
+        "4": 3
+      }
+    },
+    {
+      "path": "state_machines[]",
+      "ids": {},
+      "parent": {
+        "path": "",
+        "ids": {}
+      },
+      "_emission_index": 4,
+      "_source_batch_indexes": [
+        4
+      ],
+      "_source_chunk_ids": [
+        35
+      ],
+      "_emission_by_batch": {
+        "4": 4
+      }
+    },
+    {
+      "path": "state_machines[].states[]",
+      "ids": {},
+      "parent": {
+        "path": "state_machines[]",
+        "ids": {}
+      },
+      "_emission_index": 5,
+      "_source_batch_indexes": [
+        4
+      ],
+      "_source_chunk_ids": [
+        35
+      ],
+      "_emission_by_batch": {
+        "4": 5
+      }
+    },
+    {
+      "path": "state_machines[].transitions[]",
+      "ids": {},
+      "parent": {
+        "path": "state_machines[]",
+        "ids": {}
+      },
+      "_emission_index": 6,
+      "_source_batch_indexes": [
+        4
+      ],
+      "_source_chunk_ids": [
+        35
+      ],
+      "_emission_by_batch": {
+        "4": 6
+      }
+    },
+    {
+      "path": "spi_modes[]",
+      "ids": {},
+      "parent": {
+        "path": "",
+        "ids": {}
+      },
+      "_emission_index": 7,
+      "_source_batch_indexes": [
+        4
+      ],
+      "_source_chunk_ids": [
+        35
+      ],
+      "_emission_by_batch": {
+        "4": 7
+      }
+    },
+    {
+      "path": "frame_formats[]",
+      "ids": {},
+      "parent": {
+        "path": "",
+        "ids": {}
+      },
+      "_emission_index": 8,
+      "_source_batch_indexes": [
+        4
+      ],
+      "_source_chunk_ids": [
+        35
+      ],
+      "_emission_by_batch": {
+        "4": 8
+      }
+    },
+    {
+      "path": "registers[]",
+      "ids": {},
+      "parent": {
+        "path": "",
+        "ids": {}
+      },
+      "_emission_index": 9,
+      "_source_batch_indexes": [
+        4
+      ],
+      "_source_chunk_ids": [
+        36
+      ],
+      "_emission_by_batch": {
+        "4": 9
+      }
+    },
+    {
+      "path": "registers[].fields[]",
+      "ids": {},
+      "parent": {
+        "path": "registers[]",
+        "ids": {}
+      },
+      "_emission_index": 10,
+      "_source_batch_indexes": [
+        4
+      ],
+      "_source_chunk_ids": [
+        36
+      ],
+      "_emission_by_batch": {
+        "4": 10
+      }
+    },
+    {
+      "path": "registers[]",
+      "ids": {},
+      "parent": {
+        "path": "",
+        "ids": {}
+      },
+      "_emission_index": 11,
+      "_source_batch_indexes": [
+        4
+      ],
+      "_source_chunk_ids": [
+        37
+      ],
+      "_emission_by_batch": {
+        "4": 11
+      }
+    },
+    {
+      "path": "registers[].fields[]",
+      "ids": {},
+      "parent": {
+        "path": "registers[]",
+        "ids": {}
+      },
+      "_emission_index": 12,
+      "_source_batch_indexes": [
+        4
+      ],
+      "_source_chunk_ids": [
+        37
+      ],
+      "_emission_by_batch": {
+        "4": 12
+      }
+    },
+    {
+      "path": "registers[]",
+      "ids": {},
+      "parent": {
+        "path": "",
+        "ids": {}
+      },
+      "_emission_index": 13,
+      "_source_batch_indexes": [
+        4
+      ],
+      "_source_chunk_ids": [
+        38
+      ],
+      "_emission_by_batch": {
+        "4": 13
+      }
+    },
+    {
+      "path": "registers[].fields[]",
+      "ids": {},
+      "parent": {
+        "path": "registers[]",
+        "ids": {}
+      },
+      "_emission_index": 14,
+      "_source_batch_indexes": [
+        4
+      ],
+      "_source_chunk_ids": [
+        38
+      ],
+      "_emission_by_batch": {
+        "4": 14
+      }
+    },
+    {
+      "path": "registers[]",
+      "ids": {},
+      "parent": {
+        "path": "",
+        "ids": {}
+      },
+      "_emission_index": 15,
+      "_source_batch_indexes": [
+        4
+      ],
+      "_source_chunk_ids": [
+        39
+      ],
+      "_emission_by_batch": {
+        "4": 15
+      }
+    },
+    {
+      "path": "registers[].fields[]",
+      "ids": {},
+      "parent": {
+        "path": "registers[]",
+        "ids": {}
+      },
+      "_emission_index": 16,
+      "_source_batch_indexes": [
+        4
+      ],
+      "_source_chunk_ids": [
+        39
+      ],
+      "_emission_by_batch": {
+        "4": 16
+      }
+    },
+    {
+      "path": "registers[]",
+      "ids": {},
+      "parent": {
+        "path": "",
+        "ids": {}
+      },
+      "_emission_index": 1,
+      "_source_batch_indexes": [
+        5
+      ],
+      "_source_chunk_ids": [
+        40
+      ],
+      "_emission_by_batch": {
+        "5": 1
+      }
+    },
+    {
+      "path": "registers[].fields[]",
+      "ids": {},
+      "parent": {
+        "path": "registers[]",
+        "ids": {}
+      },
+      "_emission_index": 2,
+      "_source_batch_indexes": [
+        5
+      ],
+      "_source_chunk_ids": [
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "_emission_by_batch": {
+        "5": 2
+      }
+    },
+    {
+      "path": "timing_parameters[]",
+      "ids": {},
+      "parent": {
+        "path": "",
+        "ids": {}
+      },
+      "_emission_index": 3,
+      "_source_batch_indexes": [
+        5
+      ],
+      "_source_chunk_ids": [
+        40
+      ],
+      "_emission_by_batch": {
+        "5": 3
+      }
+    },
+    {
+      "path": "state_machines[]",
+      "ids": {},
+      "parent": {
+        "path": "",
+        "ids": {}
+      },
+      "_emission_index": 4,
+      "_source_batch_indexes": [
+        5
+      ],
+      "_source_chunk_ids": [
+        40
+      ],
+      "_emission_by_batch": {
+        "5": 4
+      }
+    },
+    {
+      "path": "state_machines[].states[]",
+      "ids": {},
+      "parent": {
+        "path": "state_machines[]",
+        "ids": {}
+      },
+      "_emission_index": 5,
+      "_source_batch_indexes": [
+        5
+      ],
+      "_source_chunk_ids": [
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "_emission_by_batch": {
+        "5": 5
+      }
+    },
+    {
+      "path": "state_machines[].transitions[]",
+      "ids": {},
+      "parent": {
+        "path": "state_machines[]",
+        "ids": {}
+      },
+      "_emission_index": 6,
+      "_source_batch_indexes": [
+        5
+      ],
+      "_source_chunk_ids": [
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "_emission_by_batch": {
+        "5": 6
+      }
+    },
+    {
+      "path": "spi_modes[]",
+      "ids": {},
+      "parent": {
+        "path": "",
+        "ids": {}
+      },
+      "_emission_index": 7,
+      "_source_batch_indexes": [
+        5
+      ],
+      "_source_chunk_ids": [
+        40
+      ],
+      "_emission_by_batch": {
+        "5": 7
+      }
+    },
+    {
+      "path": "frame_formats[]",
+      "ids": {},
+      "parent": {
+        "path": "",
+        "ids": {}
+      },
+      "_emission_index": 8,
+      "_source_batch_indexes": [
+        5
+      ],
+      "_source_chunk_ids": [
+        40
+      ],
+      "_emission_by_batch": {
+        "5": 8
+      }
+    }
+  ]
+}

@@ -1,0 +1,268 @@
+{
+  "document_title": "Serial Peripheral Interface (SPI) Communications on 8-Bit PIC \u00ae Microcontrollers",
+  "registers": [
+    {
+      "name": "SPIxCON0",
+      "address": "0x00",
+      "width_bits": 8,
+      "description": "SPI Control Register 0"
+    },
+    {
+      "name": "SPIxCON1",
+      "address": "0x01",
+      "width_bits": 8,
+      "description": "SPI Control Register 1"
+    },
+    {
+      "name": "SPIxCON2",
+      "address": "0x02",
+      "width_bits": 8,
+      "description": "SPI Control Register 2"
+    },
+    {
+      "name": "SPI Transmitter Data Interrupt",
+      "address": null,
+      "width_bits": null,
+      "description": "The SPI Transmitter Data Interrupt is set when the TX register is not full and cleared when the TX register is full. Like the Receiver Data Interrupt, it allows fully interrupt-driven operation and is also compatible with the DMA."
+    },
+    {
+      "name": "Shift Register Empty Interrupt",
+      "address": null,
+      "width_bits": null,
+      "description": "The Shift Register Empty Interrupt is only available in Master mode and is set when the data transfer is complete but a new transfer is not ready."
+    },
+    {
+      "name": "Transfer Counter is Zero Interrupt",
+      "address": null,
+      "width_bits": null,
+      "description": "The Transfer Counter is Zero Interrupt is raised when the transfer counter reaches zero. This bit must also be cleared in software."
+    },
+    {
+      "name": "Start of Slave Select and End of Slave Select Interrupts",
+      "address": null,
+      "width_bits": null,
+      "description": "These interrupts are triggered on the leading and trailing edge of the SS input. It is available in both Master and Slave mode. However, it should be noted that in Master mode, PPS should be used to route the SS input to the same pin as the SS output for these interrupts to trigger on the transitions of the SS line."
+    },
+    {
+      "name": "Receiver Overflow and Transmitter Underflow Interrupts",
+      "address": null,
+      "width_bits": null,
+      "description": "The Receiver Overflow Interrupt triggers when there is data to be received but the RX register is full and the RXR bit is set. Similarly, the Transmitter Underflow Interrupt triggers when there is no data to be transmitted but the TXR bit is set. These conditions only occur in Slave mode and must be cleared through software, either through clearing the individual flag bits or clearing the EN bit of SPIxCON0."
+    },
+    {
+      "fields": [
+        {
+          "name": "LSBF",
+          "bit_range": "[0]",
+          "access": "RW",
+          "reset_value": "0",
+          "description": "LSB First: Controls the order of data bits shifted in or out of the device (LSB or MSB first)."
+        },
+        {
+          "name": "SDIP",
+          "bit_range": "[1]",
+          "access": "RW",
+          "reset_value": "0",
+          "description": "SDI Polarity: Controls the polarity of the SDI signal (active-high or active-low)."
+        },
+        {
+          "name": "SDOP",
+          "bit_range": "[2]",
+          "access": "RW",
+          "reset_value": "0",
+          "description": "SDO Polarity: Controls the polarity of the SDO signal (active-high or active-low)."
+        },
+        {
+          "name": "SDIP",
+          "bit_range": "",
+          "access": null,
+          "reset_value": null,
+          "description": "Controls the polarity of the SDI signal. When cleared, input is active-high; otherwise, input is active-low."
+        },
+        {
+          "name": "SDOP",
+          "bit_range": "",
+          "access": null,
+          "reset_value": null,
+          "description": "Controls the polarity of the SDO signal. When cleared, output is active-high; otherwise, output is active-low."
+        },
+        {
+          "name": "SSP",
+          "bit_range": "",
+          "access": null,
+          "reset_value": null,
+          "description": "Controls the polarity of the SS signal. When cleared, input is active-high; otherwise, input is active-low."
+        },
+        {
+          "name": "TXR",
+          "bit_range": "[7:0]",
+          "access": "RW",
+          "reset_value": "0x0",
+          "description": "Transmit Register. When TXR is set, data from the TX register is transmitted and the write FIFO pointer is incremented. If the TX register is empty, the most-recently received data is transmitted and the Transmit Underflow (TXUIF) Interrupt Flag bit is set to indicate that this type of error occurred. When TXR is cleared, the data in the TX register is transmitted, if available, but the write FIFO pointer is not incremented. If the TX register is empty, the most-recently received data is transmitted but the TXUIF interrupt will not be set."
+        },
+        {
+          "name": "RXR",
+          "bit_range": "[7:0]",
+          "access": "RW",
+          "reset_value": "0x0",
+          "description": "Receive Register. When RXR is set, data will be stored in the RX register if it is not full and the read FIFO pointer is incremented. If data is received and the RX register is full, the Receive Overflow (RXOIF) Interrupt Flag bit is set to indicate the error and the data received is discarded. When RXR is cleared, all received data will be ignored and not stored in the RX register."
+        },
+        {
+          "name": "SSP",
+          "bit_range": "[0]",
+          "access": "RW",
+          "reset_value": "0x0",
+          "description": "Slave Select Polarity. When the SSP bit is set, the SS line is active-low. Conversely, when the SSP bit is cleared, the SS line is active-high."
+        },
+        {
+          "name": "CKP",
+          "bit_range": "[7]",
+          "access": "RW",
+          "reset_value": "0",
+          "description": "Clock Polarity. When CKP is set, the clock is active-high. When CKP is cleared, the clock is active-low."
+        },
+        {
+          "name": "CEKE",
+          "bit_range": "[6]",
+          "access": "RW",
+          "reset_value": "0",
+          "description": "Clock Edge. When CEKE is set, the data is sampled on the rising edge of the clock. When CEKE is cleared, the data is sampled on the falling edge of the clock."
+        },
+        {
+          "name": "BMODE",
+          "bit_range": "[5]",
+          "access": "RW",
+          "reset_value": "0",
+          "description": "Bit Mode. When BMODE is set, the transfer counter determines the total number of bits to be transferred. When BMODE is cleared, the transfer counter determines the number of transfers of a specified length."
+        },
+        {
+          "name": "TCZIF",
+          "bit_range": "[0]",
+          "access": "RW1C",
+          "reset_value": "0",
+          "description": "Transfer Counter Is Zero  (TCZIF)  Interrupt  Flag  is  set  when  the  transfer counter reaches zero."
+        },
+        {
+          "name": "SPIxTCTH/L",
+          "bit_range": "[15:0]",
+          "access": "RW",
+          "reset_value": "0",
+          "description": "The SPIxTCTH/L register pair is used to set the transfer counter value."
+        },
+        {
+          "name": "SPIxTWIDTH",
+          "bit_range": "[3:0]",
+          "access": "RW",
+          "reset_value": "0",
+          "description": "The SPIxTWIDTH register determines the bit-length of each data transfer."
+        },
+        {
+          "name": "SPIxRIF/SPIxRIE",
+          "bit_range": "[0]",
+          "access": "RW",
+          "reset_value": "0x0",
+          "description": "The SPI Receiver Data Interrupt is set when the RX register contains data and cleared when the RX register is cleared. This interrupt allows fully-interrupt driven operation and is compatible with the DMA."
+        },
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ]
+    }
+  ],
+  "timing_parameters": [
+    {},
+    {}
+  ],
+  "state_machines": [
+    {
+      "states": [
+        {
+          "name": "IDLE",
+          "description": "The system is in a resting state, waiting for input or commands."
+        },
+        {
+          "name": "TRANSFER",
+          "description": "Data is being transferred between different components or systems."
+        }
+      ],
+      "transitions": [
+        {},
+        {}
+      ]
+    }
+  ],
+  "spi_modes": [
+    {
+      "mode_number": 0,
+      "cpol": 0,
+      "cpha": 0,
+      "description": "Clock idle state is low, sampling occurs on the leading edge of the clock"
+    },
+    {
+      "mode_number": 1,
+      "cpol": 0,
+      "cpha": 1,
+      "description": "Clock idle state is low, sampling occurs on the trailing edge of the clock"
+    },
+    {
+      "mode_number": 2,
+      "cpol": 1,
+      "cpha": 0,
+      "description": "Clock idle state is high, sampling occurs on the leading edge of the clock"
+    },
+    {
+      "mode_number": 1,
+      "cpol": 0,
+      "cpha": 0,
+      "description": "Transfer when RXFIFO is not full and TXFIFO is not empty. If BMODE = 0, transfer when RXFIFO is not full, TXFIFO is not empty and the transfer counter is non-zero."
+    },
+    {
+      "mode_number": 2,
+      "cpol": 0,
+      "cpha": 1,
+      "description": "Transfer when RxFIFO is not full and the transfer counter is non-zero. Transmitted data is either the top of the FIFO or the most-recently received data"
+    },
+    {
+      "mode_number": 3,
+      "cpol": 1,
+      "cpha": 0,
+      "description": "Transfer when TXFIFO is not empty. If BMODE = 0, transfer when TXFIFO is not empty and the transfer counter is non-zero. Received data is not stored."
+    },
+    {
+      "mode_number": 0,
+      "cpol": 0,
+      "cpha": 0,
+      "description": "CPOL=0, CPHA=0 - Clock idle low, sample on rising edge"
+    },
+    {
+      "mode_number": 1,
+      "cpol": 0,
+      "cpha": 1,
+      "description": "CPOL=0, CPHA=1 - Clock idle low, sample on falling edge"
+    }
+  ],
+  "frame_formats": [
+    {
+      "name": "SPI Frame",
+      "frame_size_bits": 8,
+      "bit_order": "MSB_FIRST",
+      "description": "The SPI frame consists of 8 bits of data, transmitted MSB first. It includes a clock signal and a slave select line for communication between a master and slave device."
+    },
+    {
+      "name": "SPI Frame",
+      "frame_size_bits": 8,
+      "bit_order": "LSB_FIRST",
+      "description": "The SPI frame consists of 8 bits of data, transmitted LSB first. It includes a clock signal and a slave select line for communication between a master and slave device."
+    },
+    {
+      "name": "SPI Frame",
+      "frame_size_bits": 8,
+      "bit_order": null,
+      "description": "The SPI frame consists of 8 bits of data. The bit order (MSB or LSB first) can be configured. It includes a clock signal and a slave select line for communication between a master and slave device."
+    },
+    {}
+  ]
+}

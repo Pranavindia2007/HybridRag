@@ -1,0 +1,148 @@
+{
+  "instances_by_path": {
+    "registers[]": [
+      {},
+      {},
+      {},
+      {
+        "SPI Transmitter Data Interrupt": "SPIxTIF/ SPIxTIE"
+      },
+      {
+        "Shift Register Empty Interrupt": "SRMTIF/ SRMTIE"
+      },
+      {
+        "Transfer Counter is Zero Interrupt": "TCZIF/ TCZIE"
+      },
+      {
+        "Start of Slave Select and End of Slave Select Interrupts": "SOSIF/SOSIE and EOSIF/EOSIE"
+      },
+      {
+        "Receiver Overflow and Transmitter Underflow Interrupts": "RXOIF/RXOIE and TXUIF/TXUIE"
+      },
+      {},
+      {},
+      {},
+      {},
+      {},
+      {}
+    ],
+    "registers[].fields[]": [
+      {},
+      {},
+      {
+        "LSBF": "LSB First"
+      },
+      {
+        "SDIP": "SDI Polarity"
+      },
+      {
+        "SDOP": "SDO Polarity"
+      },
+      {
+        "SSP": "SS Polarity"
+      },
+      {
+        "TXR": "TXR"
+      },
+      {
+        "RXR": "RXR"
+      },
+      {
+        "SSP": "SSP"
+      },
+      {
+        "CKP": "CKP"
+      },
+      {
+        "CEKE": "CEKE"
+      },
+      {
+        "BMODE": "BMODE"
+      },
+      {
+        "TCZIF": "TCZIF"
+      },
+      {
+        "LSBF": "LSBF"
+      },
+      {
+        "SPIxTCTH/L": "SPIxTCTH/L"
+      },
+      {
+        "SPIxTWIDTH": "SPIxTWIDTH"
+      },
+      {
+        "SPIxRIF/SPIxRIE": "SPIxRIF/SPIxRIE"
+      },
+      {},
+      {},
+      {},
+      {},
+      {},
+      {}
+    ],
+    "spi_modes[]": [
+      {},
+      {},
+      {
+        "Full Duplex (Legacy)": "Full Duplex Mode"
+      },
+      {
+        "Receive Only": "Receive Only Mode"
+      },
+      {
+        "Transmit Only": "Transmit Only Mode"
+      },
+      {
+        "Transfer Off": "Transfer Off Mode"
+      },
+      {},
+      {}
+    ],
+    "frame_formats[]": [
+      {},
+      {},
+      {},
+      {}
+    ],
+    "timing_parameters[]": [
+      {},
+      {}
+    ],
+    "state_machines[]": [
+      {},
+      {}
+    ],
+    "state_machines[].states[]": [
+      {},
+      {}
+    ],
+    "state_machines[].transitions[]": [
+      {},
+      {}
+    ]
+  },
+  "calls": 1,
+  "containment_candidates": 1,
+  "llm_merges": [
+    {
+      "path": "registers[].fields[]",
+      "keep": 2,
+      "merge": [
+        13
+      ]
+    }
+  ],
+  "events": [
+    {
+      "action": "merged",
+      "path": "registers[].fields[]",
+      "keep_ids": {
+        "LSBF": "LSB First"
+      },
+      "merge_ids": {
+        "LSBF": "LSBF"
+      }
+    }
+  ]
+}
