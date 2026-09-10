@@ -1,0 +1,60 @@
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Python bytecode and local environments
+__pycache__/
+*.py[cod]
+*$py.class
+.python-version
+.venv/
+venv/
+env/
+ENV/
+
+# Python tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# Secrets and local-only configuration
+.env
+.env.*
+*.pem
+*.key
+
+# Project runtime state
+:memory:.ses
+
+# Local datasheets and generated indexes
+data/*.pdf
+data/**/*.pdf
+
+data/raw_specs/*
+!data/raw_specs/.gitkeep
+
+data/chroma_store/*
+!data/chroma_store/.gitkeep
+
+data/graph_store/*
+!data/graph_store/.gitkeep
+
+data/cache/*
+!data/cache/.gitkeep
+!data/cache/images/
+data/cache/images/*
+!data/cache/images/.gitkeep
+
+# Generated reports
+data/*.json
+data/*.csv
+data/*.parquet
