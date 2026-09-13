@@ -218,6 +218,18 @@ The ingest step can take time because it parses large PDFs, embeds chunks,
 analyzes technical images, and extracts structured graph data with local LLM
 models.
 
+## Inspect the Graph
+
+Export a standalone graph viewer after ingestion:
+
+```bash
+.venv/bin/python scripts/export_graph_viewer.py
+```
+
+Open `data/graph_store/datasheet_graph_viewer.html` in a browser to search
+nodes, filter by entity type, inspect attributes/provenance pages, and highlight
+neighbors.
+
 ## Run the Chatbot
 
 After ingestion completes:
@@ -316,9 +328,31 @@ Most project settings live in `config.py`:
 ## Suggested GitHub Topics
 
 `rag`, `hybrid-rag`, `offline-rag`, `semiconductor`, `datasheet`,
+`datasheet-rag`, `graph-rag`, `knowledge-graph`, `vector-search`, `bm25`,
+`chromadb`, `ollama`, `docling`, `docling-graph`, `technical-pdf`,
 `asic-verification`, `soc-verification`, `embedded-systems`,
-`knowledge-graph`, `vector-search`, `bm25`, `ollama`, `chromadb`,
-`docling`, `docling-graph`, `pydantic`, `networkx`, `technical-pdf`.
+`retrieval-augmented-generation`, `ai-engineering`.
+
+## Repository Discoverability
+
+This repository includes a static GitHub Pages landing page in `docs/` with
+search metadata, a sitemap, and a robots file. To publish it, enable GitHub
+Pages from repository settings using the `main` branch and `/docs` folder.
+
+After pushing changes, update the GitHub About description, homepage, and
+topics with:
+
+```bash
+./scripts/update_github_metadata.sh
+```
+
+Useful search phrases this project targets include:
+
+- semiconductor datasheet RAG
+- offline datasheet RAG
+- hybrid RAG for technical PDFs
+- Docling ChromaDB BM25 Ollama knowledge graph datasheet
+- graph RAG for semiconductor documentation
 
 ## License
 

@@ -2,7 +2,7 @@
 
 ## GitHub About Description
 
-Offline hybrid RAG system for querying semiconductor chip datasheets with vector search, BM25, vision-derived image summaries, and a structured knowledge graph.
+Offline hybrid RAG for semiconductor datasheets with Docling, ChromaDB, BM25, Ollama vision summaries, and a knowledge graph.
 
 ## Repository Tagline
 
@@ -94,7 +94,7 @@ The agent is designed to answer only from retrieved evidence, reducing unsupport
 
 ## Suggested GitHub Topics
 
-`rag`, `hybrid-rag`, `semiconductor`, `datasheet`, `asic-verification`, `embedded-systems`, `knowledge-graph`, `vector-search`, `bm25`, `ollama`, `chromadb`, `docling`, `pydantic`, `networkx`, `offline-ai`
+`rag`, `hybrid-rag`, `offline-rag`, `semiconductor`, `datasheet`, `datasheet-rag`, `graph-rag`, `knowledge-graph`, `vector-search`, `bm25`, `chromadb`, `ollama`, `docling`, `docling-graph`, `technical-pdf`, `asic-verification`, `soc-verification`, `embedded-systems`, `retrieval-augmented-generation`, `ai-engineering`
 
 ## Short README Intro
 

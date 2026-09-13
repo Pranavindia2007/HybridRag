@@ -1,0 +1,25 @@
+repository:
+  name: HybridRag
+  description: "Offline hybrid RAG for semiconductor datasheets with Docling, ChromaDB, BM25, Ollama vision summaries, and a knowledge graph."
+  homepage: "https://pranavindia2007.github.io/HybridRag/"
+  topics:
+    - rag
+    - hybrid-rag
+    - offline-rag
+    - semiconductor
+    - datasheet
+    - datasheet-rag
+    - graph-rag
+    - knowledge-graph
+    - vector-search
+    - bm25
+    - chromadb
+    - ollama
+    - docling
+    - docling-graph
+    - technical-pdf
+    - asic-verification
+    - soc-verification
+    - embedded-systems
+    - retrieval-augmented-generation
+    - ai-engineering

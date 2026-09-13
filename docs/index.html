@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HybridRAG for Semiconductor Datasheets | Offline Datasheet RAG with Knowledge Graphs</title>
+  <meta name="description" content="HybridRAG is an offline local-first RAG system for semiconductor datasheets. It combines Docling parsing, ChromaDB vector search, BM25, Ollama vision summaries, and a NetworkX/docling-graph knowledge graph for source-grounded engineering Q&A.">
+  <meta name="keywords" content="semiconductor datasheet RAG, offline RAG, hybrid RAG, datasheet chatbot, Docling, docling-graph, ChromaDB, BM25, Ollama, knowledge graph, ASIC verification, SoC verification, register map search, bit-field search, pinout search, technical PDF retrieval">
+  <meta name="author" content="Pranav Shah">
+  <link rel="canonical" href="https://pranavindia2007.github.io/HybridRag/">
+  <meta property="og:title" content="HybridRAG for Semiconductor Datasheets">
+  <meta property="og:description" content="Offline datasheet RAG with Docling, ChromaDB, BM25, Ollama vision summaries, and a structured knowledge graph for semiconductor engineering Q&A.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://pranavindia2007.github.io/HybridRag/">
+  <meta name="twitter:card" content="summary">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareSourceCode",
+    "name": "HybridRAG for Semiconductor Datasheets",
+    "codeRepository": "https://github.com/Pranavindia2007/HybridRag",
+    "programmingLanguage": "Python",
+    "runtimePlatform": "Ollama, Docling, ChromaDB, NetworkX",
+    "description": "Offline local-first retrieval augmented generation system for semiconductor datasheets and embedded hardware specifications, combining vector search, BM25, vision-derived diagram summaries, and a structured knowledge graph.",
+    "keywords": [
+      "semiconductor datasheet RAG",
+      "offline RAG",
+      "hybrid RAG",
+      "Docling",
+      "docling-graph",
+      "ChromaDB",
+      "BM25",
+      "Ollama",
+      "knowledge graph",
+      "ASIC verification",
+      "SoC verification",
+      "technical PDF retrieval"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "Pranav Shah",
+      "url": "https://github.com/Pranavindia2007"
+    }
+  }
+  </script>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f7f7f4;
+      --text: #1f2528;
+      --muted: #5b666a;
+      --line: #d7ddd9;
+      --accent: #246b5a;
+      --panel: #ffffff;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #111516;
+        --text: #edf1ee;
+        --muted: #aab5b1;
+        --line: #2b3536;
+        --accent: #5dbda5;
+        --panel: #171d1f;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+    }
+    main {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 48px 20px 64px;
+    }
+    h1 {
+      font-size: clamp(34px, 6vw, 64px);
+      line-height: 1.02;
+      margin: 0 0 16px;
+      letter-spacing: 0;
+    }
+    h2 {
+      margin: 38px 0 12px;
+      font-size: 24px;
+    }
+    p { max-width: 760px; }
+    .lead {
+      font-size: 20px;
+      color: var(--muted);
+      max-width: 860px;
+    }
+    .actions {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin: 28px 0;
+    }
+    .actions a {
+      color: var(--bg);
+      background: var(--accent);
+      text-decoration: none;
+      padding: 10px 14px;
+      border: 1px solid var(--accent);
+    }
+    .actions a.secondary {
+      color: var(--text);
+      background: transparent;
+      border-color: var(--line);
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 12px;
+      margin: 18px 0 8px;
+    }
+    .item {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      padding: 16px;
+    }
+    code, pre {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    }
+    pre {
+      overflow: auto;
+      border: 1px solid var(--line);
+      background: var(--panel);
+      padding: 14px;
+    }
+    .keywords {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      padding: 0;
+      list-style: none;
+    }
+    .keywords li {
+      border: 1px solid var(--line);
+      padding: 4px 8px;
+      color: var(--muted);
+      background: var(--panel);
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>HybridRAG for Semiconductor Datasheets</h1>
+    <p class="lead">
+      Offline, local-first datasheet RAG for engineers who need exact register,
+      bit-field, pinout, package, timing, and electrical answers with citations.
+    </p>
+    <div class="actions">
+      <a href="https://github.com/Pranavindia2007/HybridRag">View the GitHub repository</a>
+      <a class="secondary" href="https://github.com/Pranavindia2007/HybridRag#readme">Read the README</a>
+    </div>
+
+    <h2>What It Does</h2>
+    <p>
+      HybridRAG turns dense semiconductor chip datasheets and embedded hardware
+      specifications into a searchable engineering assistant. It combines
+      Docling PDF parsing, table-aware chunking, ChromaDB vector search, BM25
+      exact matching, Ollama vision summaries for technical diagrams, and a
+      NetworkX/docling-graph knowledge graph.
+    </p>
+
+    <div class="grid">
+      <div class="item"><strong>Hybrid retrieval</strong><br>Dense embeddings plus BM25 reciprocal-rank fusion for semantic and exact-symbol search.</div>
+      <div class="item"><strong>Atomic tables</strong><br>Register maps and bit-field tables are kept intact for precise hardware lookup.</div>
+      <div class="item"><strong>Knowledge graph</strong><br>Datasheet entities such as packages, pins, peripherals, registers, and timing parameters become traversable graph nodes.</div>
+      <div class="item"><strong>Local-first</strong><br>Runs with local Ollama models so private datasheets do not need to leave your machine.</div>
+    </div>
+
+    <h2>Search-Friendly Use Cases</h2>
+    <ul>
+      <li>Semiconductor datasheet RAG and technical PDF retrieval.</li>
+      <li>Offline RAG chatbot for ASIC, SoC, MCU, and embedded systems documentation.</li>
+      <li>Register map search, bit-field lookup, reset value lookup, and pinout search.</li>
+      <li>Graph RAG for datasheet entities with page-level provenance and citations.</li>
+      <li>Docling-based parsing for hardware specifications with tables and diagrams.</li>
+    </ul>
+
+    <h2>Quick Start</h2>
+    <pre><code>git clone https://github.com/Pranavindia2007/HybridRag.git
+cd HybridRag
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+python ingest.py
+python main.py</code></pre>
+
+    <h2>Keywords</h2>
+    <ul class="keywords">
+      <li>semiconductor datasheet RAG</li>
+      <li>offline RAG</li>
+      <li>hybrid RAG</li>
+      <li>Docling</li>
+      <li>docling-graph</li>
+      <li>ChromaDB</li>
+      <li>BM25</li>
+      <li>Ollama</li>
+      <li>knowledge graph</li>
+      <li>ASIC verification</li>
+      <li>SoC verification</li>
+      <li>technical PDF retrieval</li>
+    </ul>
+  </main>
+</body>
+</html>
